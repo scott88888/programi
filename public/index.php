@@ -1,5 +1,4 @@
 <?php
-echo "987654";
 use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
