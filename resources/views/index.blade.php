@@ -123,16 +123,17 @@
     <div class="container position-relative pb-2">
         <div class="row align-items-center text-center text-md-start justify-content-sm-center">
             <div class="col-md-6 col-sm-9 position-relative z-index-1 text-dark-gray md-mb-35px">
-                <div class="alt-font fs-110 md-fs-100 fw-300 lh-85 ls-minus-2px mb-15px fancy-text-style-4" data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 900, "easing": "easeOutCirc" }'>
-                    <span class="d-inline-block">Organic</span>
-                    <span class="fw-700 fs-150 md-fs-120 ls-minus-5px d-inline-block" data-fancy-text='{ "effect": "rubber-band", "string": ["search", "results"] }'></span>
+                <div class="alt-font fs-50 md-fs-40 fw-300 lh-85 ls-minus-2px mb-15px fancy-text-style-4" data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 900, "easing": "easeOutCirc" }'>
+                    <span class="d-inline-block">為客戶提供</span>
+                    <span class="fw-700 fs-50 md-fs-40 ls-minus-1px d-inline-block" data-fancy-text='{ "effect": "rubber-band", "string": ["創新 Innovative", "全面 Comprehensive", "優質 Quality ","安全 Secure ","獨特 Unique "] }'></span> 
                 </div>
                 <div data-anime='{ "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "duration": 900, "delay": 500, "easing": "easeOutCirc" }'>
-                    <span class="alt-font fs-20 fw-500 w-70 lg-w-85 sm-w-100 mb-40px md-mb-30px d-block opacity-7">We
-                        offer flexible pricing plans so that our clients can take advantage of services.</span>
+                    <span class="alt-font fs-20 fw-500 w-70 lg-w-85 sm-w-100 mb-40px md-mb-30px d-block opacity-7">的解決方案，無論是企業或是私人需求都可以量身訂製各類系統開發
+                    </span>
                 </div>
-                <a href="index" class="btn btn-extra-large btn-rounded with-rounded btn-gradient-new-color btn-box-shadow box-shadow-extra-large" data-anime='{ "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "duration": 900, "delay": 800, "easing": "easeOutCirc" }'>Get
-                    free analysis<span class="bg-white text-base-color"><i class="fa-solid fa-arrow-right"></i></span></a>
+                <a href="index" class="btn btn-extra-large btn-rounded with-rounded btn-gradient-new-color btn-box-shadow box-shadow-extra-large" data-anime='{ "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "duration": 900, "delay": 800, "easing": "easeOutCirc" }'>
+                聯&nbsp&nbsp繫&nbsp&nbsp我&nbsp&nbsp們
+                <span class="bg-white text-base-color"><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
             <div class="col-md-6 text-center" data-anime='{ "opacity": [0, 1], "translateY": [150, 0], "duration": 2000, "easing": "easeOutBack" }'>
                 <img src="images/rocket2.png" alt="" class="animation-float">
