@@ -25,3 +25,7 @@ Route::get('/pastworks', function () {
 Route::get('/faq', function () {
     return view('faq');
 });
+
+Route::get('/test', function () {
+    return view('test');
+});

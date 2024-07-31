@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="demos/seo-agency/seo-agency.css" />
+    <script src="http://18.163.86.151/assets/layer/ai_service_diy_3.js" charset="UTF-8"></script>
 </head>
 @yield('extra_head')
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#2a2b3f" class="custom-cursor">
@@ -33,7 +34,7 @@
         <div class="row align-items-center justify-content-center">
             <!-- start footer column -->
             <div class="col-auto d-flex flex-column flex-md-row align-items-center text-center text-md-start">
-                <div class="text-dark-gray fs-28 alt-font fw-500">1M+ property ready to <span class="fw-700 text-decoration-line-bottom">buying and selling.</span></div>
+                <div class="text-dark-gray fs-28 alt-font fw-500">我們已預備提供<span class="fw-700 text-decoration-line-bottom">咨詢與服務</span></div>
                 <div class="bg-white border-radius-50px d-flex align-items-center p-10px ps-35px ms-20px md-ps-20px md-ms-15px box-shadow-medium sm-m-20px">
                     <a href="demo-real-estate-contact.html" class="text-dark-gray fs-22 alt-font fw-500 me-10px overflow-hidden">Say, <span class="fw-700 w-65px text-start d-inline-block" data-fancy-text='{ "effect": "rotate", "string": ["Hello!", "Salve!", "Hallå!"] }'></span></a>
                     <span class="text-dark-gray h-45px w-45px text-center d-flex align-items-center justify-content-center border-radius-100 bg-base-color-transparent fs-20">&#128075;</span>
@@ -45,7 +46,7 @@
             <!-- start footer column -->
             <div class="col-lg-3 last-paragraph-no-margin md-mb-35px text-center text-lg-start">
                 <a href="index" class="footer-logo mb-10px d-inline-block"><img style="width: 160px !important;max-height: 60px !important;" src="images/logo2.png" data-at2x="images/logo2.png" alt=""></a>
-                <p class="w-85 lg-w-100">Lorem ipsum text adipiscing eiusmod elit incididunt enim.</p>
+                <p class="w-85 lg-w-100">擁有15年以上的程式開發經驗，為您和您公司提升科技等級</p>
                 <div class="elements-social social-icon-style-02 mt-15px">
                     <ul class="small-icon dark">
                         <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -71,21 +72,18 @@
 
             <!-- start footer column -->
             <div class="col-6 col-lg-3 col-md-3">
-                <span class="alt-font fs-18 fw-600 d-block text-dark-gray mb-10px">Say hello</span>
+                <span class="alt-font fs-18 fw-600 d-block text-dark-gray mb-10px">需要咨詢嗎？</span>
                 <span class="d-block lh-normal">Need support?</span>
                 <a href="mailto:info@domain.com" class="text-dark-gray text-decoration-line-bottom lh-22 d-inline-block mb-20px">quartetsolutions.com.hk</a>
-                <span class="d-block lh-normal">Customer care</span>
-                <a href="tel:12345678910" class="text-dark-gray text-decoration-line-bottom lh-22 d-inline-block">+886 987 350 606</a>
+                <span class="d-block lh-normal">LINE</span>
+                <a href="tel:12345678910" class="text-dark-gray text-decoration-line-bottom lh-22 d-inline-block">+886 987 350 606</a>    
             </div>
             <!-- end footer column -->
         </div>
         <!-- start footer content -->
         <div class="border-top border-color-extra-medium-gray pt-35px pb-35px text-center">
-            <span class="fs-13 w-60 lg-w-70 md-w-90 sm-w-100 d-block mx-auto lh-22">This site is protected by
-                reCAPTCHA and the Google <a href="#" class="text-dark-gray text-decoration-line-bottom">privacy
-                    policy</a> and <a href="#" class="text-dark-gray text-decoration-line-bottom">terms of
-                    service</a> apply. You must not use this website if you disagree with any of these website
-                standard terms and conditions.</span>
+            <span class="fs-13 w-60 lg-w-70 md-w-90 sm-w-100 d-block mx-auto lh-22">© 2024 Programi Solutions Limited, All rights reserved.
+            </span>
         </div>
         <!-- end footer content -->
     </div>
