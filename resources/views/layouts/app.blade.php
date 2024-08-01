@@ -48,12 +48,12 @@
                 <a href="index" class="footer-logo mb-10px d-inline-block"><img style="width: 160px !important;max-height: 60px !important;" src="images/logo2.png" data-at2x="images/logo2.png" alt=""></a>
                 <p class="w-85 lg-w-100">擁有15年以上的程式開發經驗，為您和您公司提升科技等級</p>
                 <div class="elements-social social-icon-style-02 mt-15px">
-                    <ul class="small-icon dark">
+                    <!-- <ul class="small-icon dark">
                         <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
                         <li><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-dribbble"></i></a></li>
                         <li><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                         <li><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
             <!-- end footer column -->
