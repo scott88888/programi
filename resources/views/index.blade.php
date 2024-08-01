@@ -34,7 +34,7 @@
         font-family: Arial, sans-serif;
         text-align: center;
         padding: 20px;
-        background-color: #f5f5f5;
+
     }
 
     .small-text {
@@ -45,7 +45,7 @@
 
     .large-text {
         font-size: 36px;
-        color: #3b5998;
+        color: #000;
         margin: -15px;
         font-weight: 600;
     }
@@ -522,25 +522,25 @@
                     <!-- start slider item -->
                     <div class="swiper-slide">
                         <div class="fs-250 lg-fs-200 md-fs-150 ls-minus-8px md-ls-minus-4px text-light-blue alt-font fw-700">
-                            / Quality / Secure </div>
+                            / Quality / Secure / Unique / Innovative / Comprehensive</div>
                     </div>
                     <!-- end slider item -->
                     <!-- start slider item -->
                     <div class="swiper-slide">
                         <div class="fs-250 lg-fs-200 md-fs-150 ls-minus-8px md-ls-minus-4px text-light-blue alt-font fw-700">
-                            / Unique</div>
+                        / Quality / Secure / Unique / Innovative / Comprehensive</div>
                     </div>
                     <!-- end slider item -->
                     <!-- start slider item -->
                     <div class="swiper-slide">
                         <div class="fs-250 lg-fs-200 md-fs-150 ls-minus-8px md-ls-minus-4px text-light-blue alt-font fw-700">
-                            / Innovative / Comprehensive</div>
+                        / Quality / Secure / Unique / Innovative / Comprehensive</div>
                     </div>
                     <!-- end slider item -->
                 </div>
             </div>
             <div class="position-absolute z-index-1 top-minus-40px left-0px text-center d-md-block d-none">
-                <img src="images/habds.png" style="max-width: 48%;" class="md-w-50" data-bottom-top="transform: translateY(50px) translateX(220px)" data-top-bottom="transform:translateY(-50px) translateX(220px)" alt="" />
+                <img src="images/habds.png" style="max-width: 35%;" class="md-w-50" data-bottom-top="transform: translateY(50px) translateX(220px)" data-top-bottom="transform:translateY(-50px) translateX(220px)" alt="" />
             </div>
         </div>
     </div>
@@ -574,7 +574,7 @@
                                 <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">仔細了解您的需求
                                 </h2>
                                 <p class="w-80 xl-w-90 md-w-100">確保我們理解一致，最終產品合乎您的需求，免除後期改動影響客戶時程，務求使顧客滿意與我們的合作體驗</p>
-                                <a href="" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
+                                <a href="about"  class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
                                     <span>
                                         <span class="btn-text">了解更多</span>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -595,7 +595,7 @@
                                 <span class="ps-20px pe-20px mb-30px md-mb-20px text-uppercase text-dark-gray fs-20 lh-40 md-lh-50 ls-1px alt-font fw-700 border-radius-4px bg-y-w-y d-inline-block">全面計劃</span>
                                 <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">部署周全的時間表</h2>
                                 <p class="w-80 xl-w-90 md-w-100">我們的高級工程師安排時程，務求在制定的時間完成產品，並保留時間予客人測試</p>
-                                <a href="" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
+                                <a href="about"  class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
                                     <span>
                                         <span class="btn-text">了解更多</span>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -617,7 +617,7 @@
                                 <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">15年經驗全數付出
                                 </h2>
                                 <p class="w-80 xl-w-90 md-w-100">以最有效的方式，與我們的設計團隊一同架構製作，以專業的態度使產品以最完美的方式展現</p>
-                                <a href="" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
+                                <a href="about"  class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
                                     <span>
                                         <span class="btn-text">了解更多</span>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -639,7 +639,7 @@
                                 <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">與您一同分享喜悅
                                 </h2>
                                 <p class="w-80 xl-w-90 md-w-100">無論是使用家節省了時間，還是增加了您的利潤，我們深信製作的產品都會使工作變得更順利，由心感恩我們參與了其中</p>
-                                <a href="" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
+                                <a href="about"  class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
                                     <span>
                                         <span class="btn-text">了解更多</span>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -851,7 +851,7 @@
                 </h1>
                 <a href="#" class="btn btn-extra-large btn-switch-text btn-y-t-y btn-rounded">
                     <span>
-                        <span class="btn-double-text" data-text="Got a project in mind">有想法嗎？</span>
+                        <span class="btn-double-text" data-text="有想法嗎？">有想法嗎？</span>
                         <span><i class="fa-solid fa-arrow-right"></i></span>
                     </span>
                 </a>

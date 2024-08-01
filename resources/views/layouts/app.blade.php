@@ -73,7 +73,7 @@
             <!-- start footer column -->
             <div class="col-6 col-lg-3 col-md-3">
                 <span class="alt-font fs-18 fw-600 d-block text-dark-gray mb-10px">需要咨詢嗎？</span>
-                <span class="d-block lh-normal">Need support?</span>
+                <span class="d-block lh-normal">E-mail</span>
                 <a href="mailto:info@domain.com" class="text-dark-gray text-decoration-line-bottom lh-22 d-inline-block mb-20px">quartetsolutions.com.hk</a>
                 <span class="d-block lh-normal">LINE</span>
                 <a href="tel:12345678910" class="text-dark-gray text-decoration-line-bottom lh-22 d-inline-block">+886 987 350 606</a>    
