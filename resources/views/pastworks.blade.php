@@ -89,9 +89,9 @@
     <div class="container">
         <div class="row align-items-center justify-content-center position-relative z-index-1 h-250px">
             <div class="col-12 text-center position-relative page-title-large" data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 900, "easing": "easeOutCirc" }'>
-                <h1 class="alt-font d-inline-block fw-700 ls-minus-1px text-dark-gray mb-0">Portfolio boxed</h1>
-                <h2 class="mt-5px text-dark-gray mb-0"><span class="opacity-7">Portfolio boxed - Three column
-                        layout</span></h2>
+                <h1 class="alt-font d-inline-block fw-700 ls-minus-1px text-dark-gray mb-0">過往作品</h1>
+                <h2 class="mt-5px text-dark-gray mb-0"><span class="opacity-7">我們的創作與分享
+                </span></h2>
             </div>
         </div>
     </div>
@@ -104,11 +104,11 @@
             <div class="col-12 text-center">
                 <!-- filter navigation -->
                 <ul class="portfolio-filter nav nav-tabs justify-content-center border-0 fw-500 alt-font pb-5">
-                    <li class="nav active"><a data-filter="*" href="#">All</a></li>
-                    <li class="nav"><a data-filter=".selected" href="#">Selected</a></li>
-                    <li class="nav"><a data-filter=".digital" href="#">Digital</a></li>
-                    <li class="nav"><a data-filter=".branding" href="#">Branding</a></li>
-                    <li class="nav"><a data-filter=".web" href="#">Web</a></li>
+                    <li class="nav active"><a data-filter="*" href="#">全部</a></li>
+                    <li class="nav"><a data-filter=".selected" href="#">餐飲業</a></li>
+                    <li class="nav"><a data-filter=".digital" href="#">辦公室</a></li>
+                    <li class="nav"><a data-filter=".branding" href="#">電商</a></li>
+                    <li class="nav"><a data-filter=".web" href="#">其他</a></li>
                 </ul>
                 <!-- end filter navigation -->
             </div>

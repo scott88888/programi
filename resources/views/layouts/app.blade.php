@@ -34,7 +34,7 @@
         <div class="row align-items-center justify-content-center">
             <!-- start footer column -->
             <div class="col-auto d-flex flex-column flex-md-row align-items-center text-center text-md-start">
-                <div class="text-dark-gray fs-28 alt-font fw-500">我們已預備提供<span class="fw-700 text-decoration-line-bottom">咨詢與服務</span></div>
+                <div class="text-dark-gray fs-28 alt-font fw-500">我們已預備提供<span class="fw-700 text-decoration-line-bottom">諮詢與服務</span></div>
                 <div class="bg-white border-radius-50px d-flex align-items-center p-10px ps-35px ms-20px md-ps-20px md-ms-15px box-shadow-medium sm-m-20px">
                     <a href="demo-real-estate-contact.html" class="text-dark-gray fs-22 alt-font fw-500 me-10px overflow-hidden">Say, <span class="fw-700 w-65px text-start d-inline-block" data-fancy-text='{ "effect": "rotate", "string": ["Hello!", "Salve!", "Hallå!"] }'></span></a>
                     <span class="text-dark-gray h-45px w-45px text-center d-flex align-items-center justify-content-center border-radius-100 bg-base-color-transparent fs-20">&#128075;</span>
@@ -72,7 +72,7 @@
 
             <!-- start footer column -->
             <div class="col-6 col-lg-3 col-md-3">
-                <span class="alt-font fs-18 fw-600 d-block text-dark-gray mb-10px">需要咨詢嗎？</span>
+                <span class="alt-font fs-18 fw-600 d-block text-dark-gray mb-10px">需要諮詢嗎？</span>
                 <span class="d-block lh-normal">E-mail</span>
                 <a href="mailto:info@domain.com" class="text-dark-gray text-decoration-line-bottom lh-22 d-inline-block mb-20px">quartetsolutions.com.hk</a>
                 <span class="d-block lh-normal">LINE</span>

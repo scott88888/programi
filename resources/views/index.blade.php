@@ -193,7 +193,7 @@
                             <img src="images/dialogue.png" style="width: 80px;height: 80px;" alt="">                    
                     </div>
                     <div class="feature-box-content last-paragraph-no-margin">
-                        <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">咨詢與規劃</span>
+                        <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">諮詢與規劃</span>
                         <p>制定一系列的開發策略與方案</p>
                     </div>
                 </div>
@@ -735,7 +735,7 @@
                             <div class="row align-items-center pt-25px pb-25px">
                                 <div class="col-lg-8 d-lg-flex align-items-center text-center text-lg-start">
                                 <img src="images/bill.jpg" class="rounded-circle w-100px h-100px md-mb-35px" alt="">
-                                    <span class="d-block ps-40px md-ps-0 md-mx-auto position-relative" style="color: #ffffff;"><img src="images/demo-accounting-home-quote-img.png" class="position-absolute left-minus-25px top-minus-15px lg-top-minus-5px md-top-minus-50px w-40px md-left-0px md-right-0px md-mx-auto" alt="">普洛加民提供的服務咨詢，可以提供幾乎所有的技術支持，總的來說，一次好的合作，包括服務的專業性與效率，處理時效上的跟進，普洛加民都是一個不錯的選擇</span>
+                                    <span class="d-block ps-40px md-ps-0 md-mx-auto position-relative" style="color: #ffffff;"><img src="images/demo-accounting-home-quote-img.png" class="position-absolute left-minus-25px top-minus-15px lg-top-minus-5px md-top-minus-50px w-40px md-left-0px md-right-0px md-mx-auto" alt="">普洛加民提供的服務諮詢，可以提供幾乎所有的技術支持，總的來說，一次好的合作，包括服務的專業性與效率，處理時效上的跟進，普洛加民都是一個不錯的選擇</span>
                                 </div>
                                 <div class="col-lg-1 d-none d-lg-inline-block">
                                     <div class="separator-line w-1px md-w-100 h-60px md-h-1px bg-extra-medium-gray mx-auto">
