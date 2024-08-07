@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="demos/seo-agency/seo-agency.css" />
-    <script src="http://18.163.86.151/assets/layer/ai_service_diy_3.js" charset="UTF-8"></script>
 </head>
 @yield('extra_head')
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#2a2b3f" class="custom-cursor">

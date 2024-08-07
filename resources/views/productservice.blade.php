@@ -71,7 +71,7 @@
                             <a href="about" class="nav-link">關於我們</a>
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
-                            <a href="productservice" class="nav-link">產品/服務</a>
+                            <a href="#" class="nav-link">產品/服務</a>
                             <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
                                 <li><a href="index">Shop.com夥伴商店串接</a></li>
@@ -127,8 +127,9 @@
         <div class="row justify-content-center">
             <div class="col-lg-10 overlap-section text-center">
                 <div class="p-10 box-shadow-extra-large border-radius-4px bg-white text-center">
-                    <a href="demo-business-blog" class="bg-y-w-y text-uppercase fs-13 ps-25px pe-25px alt-font fw-500 text-base-color lh-40 sm-lh-55 border-radius-100px d-inline-block mb-3 sm-mb-15px" style="color: #000000;">Business</a>
-                    <h3 class="alt-font text-dark-gray fw-600 ls-minus-1px mb-15px">Better to see something once than hear about it a thousand times</h3>
+                    <a href="demo-business-blog" class="bg-y-w-y text-uppercase fs-13 ps-25px pe-25px alt-font fw-500 text-base-color lh-40 sm-lh-55 border-radius-100px d-inline-block mb-3 sm-mb-15px" style="color: #000000;">美安系統串接
+                    </a>
+                    <h3 class="alt-font text-dark-gray fw-600 ls-minus-1px mb-15px">增加其銷售渠道的廣度和多元化</h3>
 
                 </div>
             </div>
@@ -146,128 +147,54 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-9 dropcap-style-01" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                <p class="mb-6"><span class="alt-font first-letter text-dark-gray">M</span>lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non , sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="row">
-                    <div class="col-md-6 sm-mb-30px">
-                        <div class="border-radius-5px border-1 border border-color-light-medium-gray h-100 pt-8 pb-8 ps-10 pe-10 last-paragraph-no-margin">
-                            <span class="fw-500 text-dark-gray mb-5px d-inline-block">A balanced diet is a cookie in hand</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="border-radius-5px border-1 border border-color-light-medium-gray h-100 pt-8 pb-8 ps-10 pe-10 last-paragraph-no-margin">
-                            <span class="fw-500 text-dark-gray mb-5px d-inline-block">Nature is wears the bright colors</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.</p>
-                        </div>
-                    </div>
+                <p class="mb-6"><span class="alt-font first-letter text-dark-gray">台</span>
+                <div>
+                灣美安夥伴商店計畫是由美安公司（Market America）推動的⼀項計畫，旨在透過提供⼀個網絡平台，使消費者能在多樣化的商店和品牌中購物，同時賺取獎勵和折扣。
                 </div>
+                <div>
+                我們可以為台灣美安的分銷商或夥伴商店提供網站串接服務，以下是⼀些實際操作基本步驟：
+                </div>
+<div>1. 需求分析
+⾸先，了解美安分銷商或客⼾的具體需求。這可能包括⾃動更新產品⽬錄、處理訂單、追蹤佣⾦等
+功能。</div>
+<div>
+2. 與美安溝通
+與美安⽅⾯進⾏溝通，確認技術合作的可⾏性及接⼝(API)的使⽤條件。獲得必要的API⽂檔，並了解
+相關的政策和規範。
+</div>
+<div>
+3. 設計和開發
+根據需求設計網站架構和⽤⼾界⾯。開發過程中需整合美安提供的API，以實現產品列表、訂單管理
+等功能。
+</div>
+<div>
+4. 安全性考量
+確保網站在處理個⼈資料和交易時符合資訊安全標準，如使⽤HTTPS、資料加密和安全的⽀付閘
+道。
+</div>
+<div>
+5. 測試與部署
+進⾏廣泛的測試，以確保網站的所有功能都能正常運作，並且與美安的系統良好整合。測試階段應
+涵蓋功能測試、性能測試和安全測試。
+</div>
+<div>
+6. 維護與⽀持
+提供維護和技術⽀持服務，以處理任何後續的問題或更新需求。
+</div>
+<div>
+7. 合法性與合規性
+確保所有的實施步驟符合當地的法律和規範，特別是有關數據保護和消費者權益的規定。
+</div>
+
+
+
+
+
+                </p>
             </div>
         </div>
+    </div>
     </div>
 </section>
 
-<!-- start section -->
-<section class="bg-y-w position-relative sm-pb-20px">
-    <div class="container">
-        <div class="row justify-content-center mb-1">
-            <div class="col-lg-7 text-center">
-                <span class="bg-y-w-y box-shadow-quadruple-large text-uppercase fs-13 ps-25px pe-25px alt-font fw-600 text-base-color lh-40 sm-lh-55 border-radius-100px d-inline-block mb-25px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "delay": 500, "staggervalue": 100, "easing": "easeOutQuad" }' style="color: #000000;">You may also like</span>
-                <h3 class="alt-font text-dark-gray fw-600 ls-minus-1px" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "delay": 500, "staggervalue": 100, "easing": "easeOutQuad" }'>Related posts</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 px-0">
-                <ul class="blog-classic blog-wrapper grid grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-double-extra-large" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <li class="grid-sizer"></li>
-                    <!-- start blog item -->
-                    <li class="grid-item">
-                        <div class="card bg-transparent border-0 h-100">
-                            <div class="blog-image position-relative overflow-hidden border-radius-4px">
-                                <a href="demo-business-blog-single-modern"><img src="https://via.placeholder.com/600x430" alt="" /></a>
-                            </div>
-                            <div class="card-body px-0 pb-30px pt-30px xs-pb-15px last-paragraph-no-margin">
-                                <span class="fs-13 text-uppercase mb-5px d-block"><a href="demo-business-blog" class="text-dark-gray fw-500 categories-text">Business</a><a href="#" class="blog-date">26 August 2023</a></span>
-                                <a href="demo-business-blog-single-modern" class="card-title mb-0 fw-500 fs-18 lh-30 text-dark-gray d-inline-block">The best way to predict the secure future is to create it</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- end blog item -->
-                    <!-- start blog item -->
-                    <li class="grid-item">
-                        <div class="card bg-transparent border-0 h-100">
-                            <div class="blog-image position-relative overflow-hidden border-radius-4px">
-                                <a href="demo-business-blog-single-modern"><img src="https://via.placeholder.com/600x430" alt="" /></a>
-                            </div>
-                            <div class="card-body px-0 pb-30px pt-30px xs-pb-15px last-paragraph-no-margin">
-                                <span class="fs-13 text-uppercase mb-5px d-block"><a href="demo-business-blog" class="text-dark-gray fw-500 categories-text">Business</a><a href="#" class="blog-date">26 August 2023</a></span>
-                                <a href="demo-business-blog-single-modern" class="card-title mb-0 fw-500 fs-18 lh-30 text-dark-gray d-inline-block">Recognizing the need is the primary condition for design</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- end blog item -->
-                    <!-- start blog item -->
-                    <li class="grid-item">
-                        <div class="card bg-transparent border-0 h-100">
-                            <div class="blog-image position-relative overflow-hidden border-radius-4px">
-                                <a href="demo-business-blog-single-modern"><img src="https://via.placeholder.com/600x430" alt="" /></a>
-                            </div>
-                            <div class="card-body px-0 pb-30px pt-30px xs-pb-15px last-paragraph-no-margin">
-                                <span class="fs-13 text-uppercase mb-5px d-block"><a href="demo-business-blog" class="text-dark-gray fw-500 categories-text">Business</a><a href="#" class="blog-date">26 August 2023</a></span>
-                                <a href="demo-business-blog-single-modern" class="card-title mb-0 fw-500 fs-18 lh-30 text-dark-gray d-inline-block">Make business easy with beautiful application store</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- end blog item -->
-                    <!-- start blog item -->
-                    <li class="grid-item">
-                        <div class="card bg-transparent border-0 h-100">
-                            <div class="blog-image position-relative overflow-hidden border-radius-4px">
-                                <a href="demo-business-blog-single-modern"><img src="https://via.placeholder.com/600x430" alt="" /></a>
-                            </div>
-                            <div class="card-body px-0 pb-30px pt-30px xs-pb-15px last-paragraph-no-margin">
-                                <span class="fs-13 text-uppercase mb-5px d-block"><a href="demo-business-blog" class="text-dark-gray fw-500 categories-text">Business</a><a href="#" class="blog-date">26 August 2023</a></span>
-                                <a href="demo-business-blog-single-modern" class="card-title mb-0 fw-500 fs-18 lh-30 text-dark-gray d-inline-block">Computers are to design as microwaves are to cooking</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- end blog item -->
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end section -->
-
-<!-- start section -->
-<section id="comments">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-9 mb-3 sm-mb-6">
-                <h6 class="alt-font text-dark-gray fw-500 mb-5px">Write a comment</h6>
-                <div class="mb-5px">Your email address will not be published. Required fields are marked *</div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-9">
-                <form action="email-templates/contact-form.php" method="post" class="row contact-form-style-02">
-                    <div class="col-md-6 mb-30px">
-                        <input class="input-name border-radius-4px form-control required" type="text" name="name" placeholder="Enter your name*">
-                    </div>
-                    <div class="col-md-6 mb-30px">
-                        <input class="border-radius-4px form-control required" type="email" name="email" placeholder="Enter your email address*">
-                    </div>
-                    <div class="col-md-12 mb-30px">
-                        <textarea class="border-radius-4px form-control" cols="40" rows="4" name="comment" placeholder="Your message"></textarea>
-                    </div>
-                    <div class="col-12">
-                        <input type="hidden" name="redirect" value="">
-                        <button class="btn btn-dark-gray btn-small btn-round-edge submit" type="submit">Post Comment</button>
-                        <div class="form-results mt-20px d-none"></div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end section -->
 @endsection
