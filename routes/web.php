@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\productControlles;
+
 
 Route::get('/', function () {
     return view('index');
@@ -28,4 +30,12 @@ Route::get('/faq', function () {
 
 Route::get('/test', function () {
     return view('test');
+});
+
+
+
+Route::controller(productControlles::class)->group(function () {
+    Route::match(['get', 'post'], '/shop', 'shop');
+    Route::match(['get', 'post'], '/ecommerce', 'ecommerce');
+    
 });

@@ -94,11 +94,11 @@
                             <a href="about" class="nav-link">關於我們</a>
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
-                           <a href="#" class="nav-link">產品/服務</a>
+                            <a href="productservice" class="nav-link">產品/服務</a>
                             <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                                <li><a href="index">Shop.com夥伴商店串接</a></li>
-                                <li><a href="index">線上購物平台</a></li>
+                                <li><a href="shop">Shop.com夥伴商店串接</a></li>
+                                <li><a href="ecommerce">線上購物平台</a></li>
                                 <li><a href="index">人事差勤管理系統</a></li>
                                 <li><a href="index">財務報銷系統</a></li>
                                 <li><a href="index">教育業管理系統</a></li>
