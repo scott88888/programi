@@ -147,9 +147,10 @@
                     <p>{{ $conect2 }}</p>
                 </div>
                 @foreach($steps as $step)
-                <div>
-                    <span>{{ $step['title'] }}</span>
-                    <spanp>{{ $step['content'] }}</span>
+                <div class="step">
+                    <div>{!! $step['title'] !!}</div>
+                    <div>{!! e($step['content']) !!}</div>
+                    <!-- <div>{!! nl2br(e($step['content'])) !!}</div> -->
                 </div>
                 @endforeach
                 </p>

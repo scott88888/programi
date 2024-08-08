@@ -35,7 +35,15 @@ Route::get('/test', function () {
 
 
 Route::controller(productControlles::class)->group(function () {
-    Route::match(['get', 'post'], '/shop', 'shop');
-    Route::match(['get', 'post'], '/ecommerce', 'ecommerce');
-    
+    Route::match(['get', 'post'], 'shop', 'shop');
+    Route::match(['get', 'post'], 'ecommerce', 'ecommerce');
+    Route::match(['get', 'post'], 'hr', 'hr');
+    Route::match(['get', 'post'], 'finance', 'finance');
+    Route::match(['get', 'post'], 'education', 'education');
+    Route::match(['get', 'post'], 'waitforegg', 'waitforegg');
+    Route::match(['get', 'post'], 'chatbot', 'chatbot');
+    Route::match(['get', 'post'], 'form', 'form');
+    Route::match(['get', 'post'], 'minigame', 'minigame');
+    Route::match(['get', 'post'], 'customer', 'customer');
+    Route::match(['get', 'post'], 'survery', 'survery');
 });
