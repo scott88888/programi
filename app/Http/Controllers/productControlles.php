@@ -43,9 +43,10 @@ class productControlles extends Controller
                 'content' => '確保所有的實施步驟符合當地的法律和規範，特別是有關數據保護和消費者權益的規定。'
             ]
         ];
+        $footer = '歡迎與我們聯繫，我們的客戶專員可以針對製作您的書商平台，並與美安串接移轉商店，給予更多專業指導及建議';
         $img = asset('images/product/shopcom/shop_com_shop.jpg');
         $imgRound = asset('images/product/shopcom/ibv.jpg');
-        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound'));
+        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
     public function ecommerce()
@@ -95,10 +96,11 @@ class productControlles extends Controller
                             • 技術支持：提供客戶支持解決技術問題，確保網站穩定運行。'
             ]
         ];
+        $footer = '歡迎與我們聯繫，我們的客⼾專員可以提供給您，更多關於架設⼀個 極具吸引⼒的購物網站專業規劃';
         $img = asset('images/product/ecommerce/E-Commerce.jpeg');
         $imgRound = asset('images/product/ecommerce/ecommerce_sq.jpg');
 
-        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound'));
+        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
     public function hr()
@@ -139,10 +141,11 @@ class productControlles extends Controller
                 • 幫助管理層了解⼈⼒資源配置的效率，並作出相應調整。'
             ]
         ];
+        $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
         $img = asset('images/product/hr/hr_large.jpg');
         $imgRound = asset('images/product/hr/hr_circle.jpg');
 
-        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound'));
+        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
     public function finance()
@@ -184,10 +187,12 @@ class productControlles extends Controller
                 • ⽀持從外部系統導入數據和對外輸出報告，增強系統的實⽤性和靈活性。'
             ],
         ];
+
+        $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
         $img = asset('images/product/finance/finance-1.jpg');
         $imgRound = asset('images/product/finance/finance_sq.jpg');
 
-        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound'));
+        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
     public function education()
@@ -266,10 +271,12 @@ class productControlles extends Controller
 
 
         ];
+        $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
+
         $img = asset('images/product/education/educational_system2.jpg');
         $imgRound = asset('images/product/education/educational_system_sq.jpg');
 
-        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound'));
+        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
     public function waitforegg()
@@ -311,10 +318,12 @@ class productControlles extends Controller
             ],
 
         ];
+        $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
+
         $img = asset('images/product/qwait/waitforegg_1.jpg');
         $imgRound = asset('images/product/qwait/waitforegg_logo.jpg');
 
-        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound'));
+        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
     public function chatbot()
@@ -346,10 +355,12 @@ class productControlles extends Controller
                 • 優勢：使客服⼈員能夠獲得客⼾的全⾯資訊，提供更個性化和⾼效的服務，並建立更深層的客⼾關係。這些功能結合使⽤時，不僅提升了客服部⾨的運作效率，還能顯著提⾼客⼾滿意度和忠誠度。通過技術⾃動化和數據驅動的決策，企業能夠更好地應對客⼾需求，並在競爭激烈的市場中保持領先。'
             ],
         ];
+
+        $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調';
         $img = asset('images/product/chatbot/chatbot.jpg');
         $imgRound = asset('images/product/chatbot/chat-bot.jpg');
 
-        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound'));
+        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
     public function form()
@@ -385,11 +396,14 @@ class productControlles extends Controller
                 'content' => '整合業務流程，如文件審批、分發和匯報，自動化這些過程以提升效率。'
             ]
         ];
+        $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。我們將會有產品專員
+        與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調
+        整。';
 
         $img = asset('images/product/form/Form_system.jpg');
         $imgRound = asset('images/product/form/form_logo.jpg');
 
-        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound'));
+        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
     public function minigame()
@@ -420,15 +434,17 @@ class productControlles extends Controller
                 'content' => '希望這些介紹對你有所幫助。如果你有具體的需求或問題，可以更詳細地討論！'
             ]
         ];
+        $footer = '歡迎與我們聯繫，我們的客⼾專員可以針對您的想法，設計客制您的網⾴⼩遊戲，給予更多專業規劃及建議';
+
         $img = asset('images/product/minigame/mini_games1.jpg');
         $imgRound = asset('images/product/minigame/mini_game_logo.jpg');
-        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound'));
+        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
     public function customer()
     {
         $title1 = '會員註冊及積分統計系統';
         $title2 = '管理會員訊息';
-        $firstword = '會';        
+        $firstword = '會';
         $conect1 = '員註冊及積分統計系統是⼀個⽤於管理會員信息和積分的系統，主要功能包括會員註冊、會員資
         料管理、積分管理和報表統計。此系統可以幫助企業有效地管理會員，提升會員參與度，並通過積分激勵會員進⾏更多的互動和消費。';
         $conect2 = '以下是該系統的詳細介紹：';
@@ -459,16 +475,18 @@ class productControlles extends Controller
                 • 積分兌換報表：記錄和統計會員積分兌換情況，幫助企業了解哪些獎品或優惠最受歡迎。'
             ]
         ];
+        $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
+
         $img = asset('images/product/customer_reg/customer_registration1.jpg');
         $imgRound = asset('images/product/customer_reg/customer_registration_logo.jpg');
-        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound'));
+        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
     public function survery()
     {
         $title1 = '問卷調查及數據統計系統';
         $title2 = '掌握大數據';
-        $firstword = '問';  
+        $firstword = '問';
         $conect1 = '卷調查及數據統計系統是⼀套⽤於設計、分發問卷並分析和報告調查數據的⼯具。這些系統在學術研究、商業市場調查、社會科學研究和客⼾反饋收集中廣泛應⽤。';
         $conect2 = '以下是這類系統的主要功能及其相關介紹：';
         $steps = [
@@ -514,10 +532,9 @@ class productControlles extends Controller
                 • 公共意見調查：收集社會各界對某些公共議題的看法和建議。'
             ]
         ];
+        $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
         $img = asset('images/product/survey/survey_system1.jpg');
         $imgRound = asset('images/product/survey/survery_logo.jpg');
-        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound'));
+        return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
-
-
 }

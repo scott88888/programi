@@ -33,6 +33,8 @@
     .bg-y-w-y {
         background-image: linear-gradient(to right, #A88006, #FFE87F, #A88006);
     }
+
+
 </style>
 @endsection
 
@@ -139,7 +141,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-9 dropcap-style-01" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                <p class="mb-6"><span class="alt-font first-letter text-dark-gray">{{ $firstword }}</span>
+                <p><span class="alt-font first-letter text-dark-gray">{{ $firstword }}</span>
                 <div>
                     {{ $conect1 }}
                 </div>
@@ -148,11 +150,15 @@
                 </div>
                 @foreach($steps as $step)
                 <div class="step">
-                    <div>{!! $step['title'] !!}</div>
-                    <div>{!! e($step['content']) !!}</div>
-                    <!-- <div>{!! nl2br(e($step['content'])) !!}</div> -->
+                    <div style="font-weight:bold;">{!! $step['title'] !!}</div>
+                    <!-- <div>{!! e($step['content']) !!}</div> -->
+                    <div>{!! nl2br(e($step['content'])) !!}</div>
+
                 </div>
                 @endforeach
+                <div class="centered-red-text" style="margin-top: 30px;">
+                  {{ $footer }}
+                </div>
                 </p>
             </div>
         </div>
