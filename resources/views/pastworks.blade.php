@@ -33,20 +33,12 @@
                             <a href="about" class="nav-link">關於我們</a>
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
-                           <a href="#" class="nav-link">產品/服務</a>
+                            <a href="#" class="nav-link">產品/服務</a>
                             <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                                <li><a href="shop">Shop.com夥伴商店串接</a></li>
-                                <li><a href="ecommerce">線上購物平台</a></li>
-                                <li><a href="index">人事差勤管理系統</a></li>
-                                <li><a href="index">財務報銷系統</a></li>
-                                <li><a href="index">教育業管理系統</a></li>
-                                <li><a href="index">訂位／候位系統</a></li>
-                                <li><a href="index">客服系統</a></li>
-                                <li><a href="index">文件管理系統</a></li>
-                                <li><a href="index">網頁小遊戲訂製</a></li>
-                                <li><a href="index">會員註冊及積分統計系統</a></li>
-                                <li><a href="index">問卷調查及數據統計系統</a></li>
+                                @foreach($menuItems as $item)
+                                <li><a href="{{ $item['link'] }}">{{ $item['text'] }}</a></li>
+                                @endforeach
                             </ul>
                         </li>
                         <a class="navbar-brand" href="index">
@@ -91,7 +83,7 @@
             <div class="col-12 text-center position-relative page-title-large" data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 900, "easing": "easeOutCirc" }'>
                 <h1 class="alt-font d-inline-block fw-700 ls-minus-1px text-dark-gray mb-0">過往作品</h1>
                 <h2 class="mt-5px text-dark-gray mb-0"><span class="opacity-7">我們的創作與分享
-                </span></h2>
+                    </span></h2>
             </div>
         </div>
     </div>
@@ -136,7 +128,228 @@
                             </div>
                             <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
                                 <div class="fs-14 lh-20 text-uppercase">各類網上預約需求</div>
-                                <a href="demo-digital-agency-single-project-minimal" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">網上預約系統</a>
+                                <a href="{{asset('/waitforegg')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">網上預約系統</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <li class="grid-item branding web transition-inner-all">
+                        <div class="portfolio-box border-radius-4px">
+                            <div class="portfolio-image border-radius-4px">
+                                <img src="{{asset('images/passwork/chatbot.jpg')}}" alt="" />
+                                <div class="portfolio-hover d-flex justify-content-center flex-column">
+                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                        <a href="{{asset('/chatbot')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
+                                </div>
+                            </div>
+                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
+                                <div class="fs-14 lh-20 text-uppercase">申接各類型軟件平台</div>
+                                <a href="{{asset('/chatbot')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">客服系統</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <li class="grid-item branding transition-inner-all">
+                        <div class="portfolio-box border-radius-4px">
+                            <div class="portfolio-image border-radius-4px">
+                                <img src="{{asset('images/passwork/ecommerce.jpg')}}" alt="" />
+                                <div class="portfolio-hover d-flex justify-content-center flex-column">
+                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                        <a href="{{asset('/ecommerce')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
+                                </div>
+                            </div>
+                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
+                                <div class="fs-14 lh-20 text-uppercase">把商品銷售到全世界</div>
+                                <a href="{{asset('/ecommerce')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">客製電商平台</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <li class="grid-item web transition-inner-all">
+                        <div class="portfolio-box border-radius-4px">
+                            <div class="portfolio-image border-radius-4px">
+                                <img src="{{asset('images/passwork/education_system.jpg')}}" alt="" />
+                                <div class="portfolio-hover d-flex justify-content-center flex-column">
+                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                        <a href="{{asset('/education')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
+                                </div>
+                            </div>
+                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
+                                <div class="fs-14 lh-20 text-uppercase">妥善管理學生資料</div>
+                                <a href="{{asset('/education')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">教育系統</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <li class="grid-item digital transition-inner-all">
+                        <div class="portfolio-box border-radius-4px">
+                            <div class="portfolio-image border-radius-4px">
+                                <img src="{{asset('images/passwork/finance.jpg')}}" alt="" />
+                                <div class="portfolio-hover d-flex justify-content-center flex-column">
+                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                        <a href="{{asset('/finance')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
+                                </div>
+                            </div>
+                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
+                                <div class="fs-14 lh-20 text-uppercase">為每間公司量身打造</div>
+                                <a href="{{asset('/finance')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">財務系統</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <li class="grid-item digital transition-inner-all">
+                        <div class="portfolio-box border-radius-4px">
+                            <div class="portfolio-image border-radius-4px">
+                                <img src="{{asset('images/passwork/FormSystem.jpg')}}" alt="" />
+                                <div class="portfolio-hover d-flex justify-content-center flex-column">
+                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                        <a href="{{asset('/form')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
+                                </div>
+                            </div>
+                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
+                                <div class="fs-14 lh-20 text-uppercase">有效管理部門表格</div>
+                                <a href="{{asset('/form')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">文件管理系統</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <li class="grid-item branding web transition-inner-all">
+                        <div class="portfolio-box border-radius-4px">
+                            <div class="portfolio-image border-radius-4px">
+                                <img src="{{asset('images/passwork/mini_games.jpg')}}" alt="" />
+                                <div class="portfolio-hover d-flex justify-content-center flex-column">
+                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                        <a href="{{asset('/minigame')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
+                                </div>
+                            </div>
+                            
+                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
+                                <div class="fs-14 lh-20 text-uppercase">增加用家體驗樂趣</div>
+                                <a href="{{asset('/minigame')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">網頁小遊戲製作</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <li class="grid-item branding transition-inner-all">
+                        <div class="portfolio-box border-radius-4px">
+                            <div class="portfolio-image border-radius-4px">
+                                <img src="{{asset('images/passwork/shopcom.jpg')}}" alt="" />
+                                <div class="portfolio-hover d-flex justify-content-center flex-column">
+                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                        <a href="{{asset('/shop')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
+                                </div>
+                            </div>
+                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
+                                <div class="fs-14 lh-20 text-uppercase">增加強大通路</div>
+                                <a href="{{asset('/shop')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">美安系統串接</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <li class="grid-item digital web transition-inner-all">
+                        <div class="portfolio-box border-radius-4px">
+                            <div class="portfolio-image border-radius-4px">
+                                <img src="{{asset('images/passwork/survey_system.jpg')}}" alt="" />
+                                <div class="portfolio-hover d-flex justify-content-center flex-column">
+                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                        <a href="{{asset('/survery')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
+                                </div>
+                            </div>
+                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
+                                <div class="fs-14 lh-20 text-uppercase">掌握大數據</div>
+                                <a href="{{asset('/survery')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">問卷/統計系統</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <li class="grid-item selected transition-inner-all">
+                        <div class="portfolio-box border-radius-4px">
+                            <div class="portfolio-image border-radius-4px">
+                                <img src="{{asset('images/passwork/waitplusegg.jpg')}}" alt="" />
+                                <div class="portfolio-hover d-flex justify-content-center flex-column">
+                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                        <a href="{{asset('/waitforegg')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
+                                </div>
+                            </div>
+                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
+                                <div class="fs-14 lh-20 text-uppercase">有效疏導候位客人</div>
+                                <a href="{{asset('/waitforegg')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">候位系統</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <li class="grid-item branding web transition-inner-all">
+                        <div class="portfolio-box border-radius-4px">
+                            <div class="portfolio-image border-radius-4px">
+                                <img src="{{asset('images/passwork/customer_registration.jpg')}}" alt="" />
+                                <div class="portfolio-hover d-flex justify-content-center flex-column">
+                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                        <a href="{{asset('/customer')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
+                                        </a>
+                                    </div>                                    
+                                </div>
+                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
+                                </div>
+                            </div>
+                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
+                                <div class="fs-14 lh-20 text-uppercase">管理會員訊息</div>
+                                <a href="{{asset('/customer')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">會員註冊積分管理系統</a>
                             </div>
                         </div>
                     </li>

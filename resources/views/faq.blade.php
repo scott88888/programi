@@ -48,17 +48,9 @@
                             <a href="#" class="nav-link">產品/服務</a>
                             <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                                <li><a href="shop">Shop.com夥伴商店串接</a></li>
-                                <li><a href="ecommerce">線上購物平台</a></li>
-                                <li><a href="index">人事差勤管理系統</a></li>
-                                <li><a href="index">財務報銷系統</a></li>
-                                <li><a href="index">教育業管理系統</a></li>
-                                <li><a href="index">訂位／候位系統</a></li>
-                                <li><a href="index">客服系統</a></li>
-                                <li><a href="index">文件管理系統</a></li>
-                                <li><a href="index">網頁小遊戲訂製</a></li>
-                                <li><a href="index">會員註冊及積分統計系統</a></li>
-                                <li><a href="index">問卷調查及數據統計系統</a></li>
+                                @foreach($menuItems as $item)
+                                <li><a href="{{ $item['link'] }}">{{ $item['text'] }}</a></li>
+                                @endforeach
                             </ul>
                         </li>
                         <a class="navbar-brand" href="index">
