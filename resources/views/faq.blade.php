@@ -57,7 +57,7 @@
                             <img style="max-height: 43px;padding: 0 20px;margin: 0px 15px;" src="images/onlylogo.png" data-at2x="images/onlylogo.png" alt="" class="">
                         </a>
                         <li class="nav-item dropdown submenu">
-                            <a href="pastworks" class="nav-link">過往作品</a>
+                            <a href="pastworks" class="nav-link">專案資歷</a>
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
                             <a href="contact" class="nav-link">聯絡我們</a>
@@ -94,7 +94,7 @@
         <div class="row align-items-center justify-content-center position-relative z-index-1 h-250px">
             <div class="col-12 text-center position-relative page-title-large" data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 900, "easing": "easeOutCirc" }'>
                 <h1 class="alt-font d-inline-block fw-700 ls-minus-1px text-dark-gray mb-0">常見問題</h1>
-                <h2 class="mt-5px text-dark-gray mb-0"><span class="opacity-7">再了解我們更多</span></h2>
+                <h2 class="mt-5px text-dark-gray mb-0"><span class="opacity-7">普洛加⺠提供全⽅位的技術⽀援</span></h2>
             </div>
         </div>
     </div>
@@ -107,15 +107,14 @@
             <div class="col-xl-5 col-lg-6 md-mb-50px text-center text-lg-start" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                 <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px mb-35px sm-mb-25px">我們會盡力解決您的每個疑慮</h2>
                 <span class="d-inline-block alt-font fw-600 fs-20 text-dark-gray mb-5px">全面技術的支援</span>
-                <p class="w-80 md-w-100">普洛加民的團隊擁有各種網路技術的輔助，無論各項大小疑問都可以用專業的回覆讓您得到滿意的答案
-                </p>
+                <p class="w-80 md-w-100">普洛加⺠團隊擁有各種網路技術的專業知識，無論各項⼤⼩疑問，都可以⽤專業的回覆，讓您得到滿意的答案</p>
 
 
                 <a href="demo-seo-agency-what-we-do.html" class="btn btn-extra-large btn-rounded with-rounded btn-y-t-y btn-box-shadow box-shadow-extra-large mt-15px">聯繫我們<span class="bg-white text-base-color"><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
             <div class="col-xl-6 offset-xl-1 col-lg-6 position-relative" data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                 <div class="outside-box-right-25 md-me-0">
-                    <img src="https://via.placeholder.com/995x680" alt="">
+                    <img src="{{asset('images/FAQ.jpg')}}" alt="">
                 </div>
             </div>
         </div>
@@ -129,15 +128,15 @@
     <div class="container">
         <div class="row justify-content-center mb-4 sm-mb-10" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
             <div class="col-12 text-center">
-                <h2 class="fw-600 alt-font text-white ls-minus-1px">一切都由簡單的開始</h2>
+                <h2 class="fw-600 alt-font text-white ls-minus-1px">每⼀次⾰新，都從溝通起步</h2>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2" data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
             <!-- start process step item -->
             <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
                 <i class="line-icon-Idea-5 icon-extra-large mb-25px text-white"></i>
-                <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">了解需求</span>
-                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">知道如何能夠幫到您</p>
+                <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">需求分析與規劃</span>
+                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">與您深入了解業務需求、⽤⼾需求及功能要求</p>
                 <div class="process-step-icon-box position-relative mt-40px md-mt-30px">
                     <span class="progress-step-separator bg-white opacity-2 w-55 separator-line-1px"></span>
                     <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-black-transparent-light h-70px w-70px fs-18 rounded-circle text-white fw-500 alt-font">
@@ -150,8 +149,8 @@
             <!-- start process step item -->
             <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
                 <i class="line-icon-Approved-Window icon-extra-large mb-25px text-white"></i>
-                <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">項目提案</span>
-                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">我們整合一個最適合的提案及報價供您參考</p>
+                <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">專案計劃與設計</span>
+                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">制定詳細的專案計劃，包括⼯作時程規劃及報價</p>
                 <div class="process-step-icon-box position-relative mt-40px md-mt-30px">
                     <span class="progress-step-separator bg-white opacity-2 w-55 separator-line-1px"></span>
                     <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-black-transparent-light h-70px w-70px fs-18 rounded-circle text-white fw-500 alt-font">
@@ -164,8 +163,8 @@
             <!-- start process step item -->
             <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin xs-mb-50px">
                 <i class="line-icon-Gear-2 icon-extra-large mb-25px text-white"></i>
-                <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">正式實施</span>
-                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">工程師把項目落實製作，在時間內完成</p>
+                <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">啟動開發、測試並發布</span>
+                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">開發團隊啟動專案，落實需求並在時間內完成測試部署</p>
                 <div class="process-step-icon-box position-relative mt-40px md-mt-30px">
                     <span class="progress-step-separator bg-white opacity-2 w-55 separator-line-1px"></span>
                     <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-black-transparent-light h-70px w-70px fs-18 rounded-circle text-white fw-500 alt-font">
@@ -178,8 +177,8 @@
             <!-- start process step item -->
             <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin">
                 <i class="line-icon-Archery-2 icon-extra-large mb-25px text-white"></i>
-                <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">完成交付</span>
-                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">調試完成，準確交付，讓您的業務更輕鬆有效</p>
+                <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">完成交付、持續維護</span>
+                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">交付系統⽂檔、使⽤培訓，並持續提供技術⽀持</p>
                 <div class="process-step-icon-box position-relative mt-40px md-mt-30px">
                     <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-black-transparent-light h-70px w-70px fs-18 rounded-circle text-white fw-500 alt-font">
                         <span class="number position-relative z-index-1">04</span>
@@ -204,25 +203,9 @@
         <div class="row">
             <div class="col-lg-6 md-mb-50px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                 <div class="accordion accordion-style-04" id="accordion-style-04" data-active-icon="icon-feather-x" data-inactive-icon="icon-feather-plus">
+                    
                     <!-- start accordion item -->
                     <div class="accordion-item active-accordion">
-                        <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
-                            <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-04-01" aria-expanded="true" data-bs-parent="#accordion-style-04">
-                                <div class="accordion-title position-relative mb-0 pe-20px text-dark-gray fs-18 fw-600 alt-font">
-                                    <span>• Q: 貴公司在雲計算領域提供哪些具體服務?</span>
-                                    <i class="feather icon-feather-x"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="accordion-style-04-01" class="accordion-collapse collapse show" data-bs-parent="#accordion-style-04">
-                            <div class="accordion-body bg-white last-paragraph-no-margin">
-                                <p>• A: 我們的雲計算服務包括雲基礎設施設計、雲遷移⽀持、雲環境優化和雲安全管理。 無論您是需要轉移到雲平台，還是希望提升現有雲環境的性能，我們的專家團隊都能 提供定制的解決⽅案。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end accordion item -->
-                    <!-- start accordion item -->
-                    <div class="accordion-item">
                         <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-04-02" aria-expanded="false" data-bs-parent="#accordion-style-04">
                                 <div class="accordion-title position-relative mb-0 pe-20px text-dark-gray fs-18 fw-600 alt-font">
@@ -231,9 +214,9 @@
                                 </div>
                             </a>
                         </div>
-                        <div id="accordion-style-04-02" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
+                        <div id="accordion-style-04-02" class="accordion-collapse collapse show" data-bs-parent="#accordion-style-04">
                             <div class="accordion-body bg-white last-paragraph-no-margin">
-                                <p>• A: 我們的收費基於項⽬的規模和複雜度。⼀般來說，我們會在免費的初次諮詢後，根 據您的具體需求提供⼀份詳細的報價。我們提供靈活的計費⽅式，包括固定費⽤、按 時計費或成果導向的費⽤結構。</p>
+                                <p>• A: 我們的收費基於項⽬的規模和複雜度。⼀般來說，我們會在免費的初次諮詢後，根據您的具體需求提供⼀份詳細的報價。我們也可以提供靈活的計費⽅式，包括固定費⽤、按時計費或成果導向的費⽤結構。</p>
                             </div>
                         </div>
                     </div>
@@ -252,7 +235,7 @@
                         </div>
                         <div id="accordion-style-04-03" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
                             <div class="accordion-body bg-white last-paragraph-no-margin">
-                                <p>• A: 我們採⽤先進的項⽬管理⽅法和⼯具，如Scrum和Kanban。每個項⽬都會指派⼀名 專⾨的項⽬經理，負責監控進度並確保所有階段按計劃執⾏。客⼾將定期接收進度報 告，並參與週期性的評估會議。</p>
+                                <p>• A: 我們採⽤先進的項⽬管理⽅法和⼯具，每個專案都會指派⼀名專⾨的項⽬經理，負責監控進度並確保所有階段按計劃執⾏。客⼾將定期接收進度報告，並參與週期性的評估會議。</p>
                             </div>
                         </div>
                     </div>
@@ -273,7 +256,7 @@
                         </div>
                         <div id="accordion-style-04-04" class="accordion-collapse collapse show" data-bs-parent="#accordion-style-05">
                             <div class="accordion-body bg-white last-paragraph-no-margin">
-                                <p>• A: 項⽬完成後，我們提供從維護到升級的全範圍技術⽀持服務。這包括故障排除、系 統更新以及根據技術進步進⾏的功能增強。我們提供多種⽀持套餐，從基本的技術⽀ 持到24/7全天候的緊急⽀持。</p>
+                                <p>• A: 專案交付完成後，我們提供從維護到升級的全範圍技術⽀持服務。這包括故障排除、系統更新，以及與時俱進的系統功能增強計畫。我們提供多種⽀持，從基本的技術客服⽀援，到24/7全天候的緊急服務。</p>
                             </div>
                         </div>
                     </div>
@@ -291,7 +274,7 @@
                         </div>
                         <div id="accordion-style-04-05" class="accordion-collapse collapse" data-bs-parent="#accordion-style-05">
                             <div class="accordion-body bg-white last-paragraph-no-margin">
-                                <p>• A: ⾸先，請通過我們的網站提交您的需求，或直接聯絡我們的客⼾服務部⾨。我們將 安排⼀次免費諮詢，詳細了解您的需求和預期⽬標。之後，我們會提供⼀份項⽬提案 和報價。⼀旦確認合作，我們將進入正式的項⽬規劃和實施階段。                                </p>
+                                <p>• A: ⾸先，請通過我們的網站提交您的需求，或直接聯絡我們的客⼾服務部⾨。我們將安排⼀次免費諮詢，詳細了解您的需求和預期⽬標。之後，我們會提供⼀份項⽬提案和報價。⼀旦確認合作，我們將進入正式的項⽬規劃和實施階段 </p>
                             </div>
                         </div>
                     </div>
@@ -307,7 +290,7 @@
                         <i class="bi bi-envelope icon-extra-medium text-base-color"></i>
                     </div>
                     <div class="feature-box-content">
-                        <span class="alt-font fs-19 fw-600 text-dark-gray">需要幫忙嗎？<a href="#" class="text-decoration-line-bottom text-dark-gray">給我們一封電郵</a></span>
+                        <span class="alt-font fs-19 fw-600 text-dark-gray">需要幫忙嗎？<a href="mailto:pm@programi.com.tw" class="text-decoration-line-bottom text-dark-gray">給我們⼀封E-mail</a></span>
                     </div>
                 </div>
             </div>
@@ -317,7 +300,7 @@
                         <i class="bi bi-chat-dots icon-extra-medium text-base-color"></i>
                     </div>
                     <div class="feature-box-content">
-                        <span class="alt-font fs-19 fw-600 text-dark-gray">想到即時溝通？ <a href="#" class="text-decoration-line-bottom text-dark-gray">聯繫我們的Line</a></span>
+                        <span class="alt-font fs-19 fw-600 text-dark-gray">想與我們即時溝通？<a href="https://lin.ee/G49WDrN" class="text-decoration-line-bottom text-dark-gray">加入我們的LINE</a></span>
                     </div>
                 </div>
             </div>

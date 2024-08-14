@@ -85,7 +85,7 @@
                             <img style="max-height: 43px;padding: 0 20px;margin: 0px 15px;" src="images/onlylogo.png" data-at2x="images/onlylogo.png" alt="" class="">
                         </a>
                         <li class="nav-item dropdown submenu">
-                            <a href="pastworks" class="nav-link">過往作品</a>
+                            <a href="pastworks" class="nav-link">專案資歷</a>
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
                             <a href="contact" class="nav-link">聯絡我們</a>

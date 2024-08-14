@@ -45,7 +45,7 @@
                             <img style="max-height: 43px;padding: 0 20px;margin: 0px 15px;" src="images/onlylogo.png" data-at2x="images/onlylogo.png" alt="" class="">
                         </a>
                         <li class="nav-item dropdown submenu">
-                            <a href="pastworks" class="nav-link">過往作品</a>
+                            <a href="pastworks" class="nav-link">專案資歷</a>
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
                             <a href="contact" class="nav-link">聯絡我們</a>
@@ -81,8 +81,8 @@
     <div class="container">
         <div class="row align-items-center justify-content-center position-relative z-index-1 h-250px">
             <div class="col-12 text-center position-relative page-title-large" data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 900, "easing": "easeOutCirc" }'>
-                <h1 class="alt-font d-inline-block fw-700 ls-minus-1px text-dark-gray mb-0">過往作品</h1>
-                <h2 class="mt-5px text-dark-gray mb-0"><span class="opacity-7">我們的創作與分享
+                <h1 class="alt-font d-inline-block fw-700 ls-minus-1px text-dark-gray mb-0">專案資歷</h1>
+                <h2 class="mt-5px text-dark-gray mb-0"><span class="opacity-7">科技趨勢，改變未來，讓夢想變成可能
                     </span></h2>
             </div>
         </div>
@@ -127,7 +127,7 @@
                                 </div>
                             </div>
                             <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">各類網上預約需求</div>
+                                <div class="fs-14 lh-20 text-uppercase">各類線上預約需求</div>
                                 <a href="{{asset('/waitforegg')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">網上預約系統</a>
                             </div>
                         </div>
@@ -149,7 +149,7 @@
                                 </div>
                             </div>
                             <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">申接各類型軟件平台</div>
+                                <div class="fs-14 lh-20 text-uppercase">可與多個通訊軟體進⾏串接</div>
                                 <a href="{{asset('/chatbot')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">客服系統</a>
                             </div>
                         </div>
@@ -193,7 +193,7 @@
                                 </div>
                             </div>
                             <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">妥善管理學生資料</div>
+                                <div class="fs-14 lh-20 text-uppercase">有效進⾏師⽣管理，即時與家長保持順暢溝通</div>
                                 <a href="{{asset('/education')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">教育系統</a>
                             </div>
                         </div>
@@ -215,8 +215,8 @@
                                 </div>
                             </div>
                             <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">為每間公司量身打造</div>
-                                <a href="{{asset('/finance')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">財務系統</a>
+                                <div class="fs-14 lh-20 text-uppercase">有效、合法地整合各部⾨報帳核銷流程</div>
+                                <a href="{{asset('/finance')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">線上財務報銷系統</a>
                             </div>
                         </div>
                     </li>
@@ -237,7 +237,7 @@
                                 </div>
                             </div>
                             <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">有效管理部門表格</div>
+                                <div class="fs-14 lh-20 text-uppercase">減少⼈為遺失、有效跟進⼯作、進⾏多部⾨整</div>
                                 <a href="{{asset('/form')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">文件管理系統</a>
                             </div>
                         </div>
@@ -260,7 +260,7 @@
                             </div>
                             
                             <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">增加用家體驗樂趣</div>
+                                <div class="fs-14 lh-20 text-uppercase">增加⽤⼾黏著度</div>
                                 <a href="{{asset('/minigame')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">網頁小遊戲製作</a>
                             </div>
                         </div>
@@ -282,8 +282,8 @@
                                 </div>
                             </div>
                             <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">增加強大通路</div>
-                                <a href="{{asset('/shop')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">美安系統串接</a>
+                                <div class="fs-14 lh-20 text-uppercase">增加來客數與主動⾏銷能⼒</div>
+                                <a href="{{asset('/shop')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">美安夥伴商店串接</a>
                             </div>
                         </div>
                     </li>
@@ -326,8 +326,8 @@
                                 </div>
                             </div>
                             <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">有效疏導候位客人</div>
-                                <a href="{{asset('/waitforegg')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">候位系統</a>
+                                <div class="fs-14 lh-20 text-uppercase">提升服務效率，增加營業額與利潤</div>
+                                <a href="{{asset('/waitforegg')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">候位排隊系統</a>
                             </div>
                         </div>
                     </li>

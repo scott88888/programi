@@ -83,7 +83,7 @@
                                 data-at2x="images/onlylogo.png" alt="" class="">
                         </a>
                         <li class="nav-item ">
-                            <a href="pastworks" class="nav-link">過往作品</a>
+                            <a href="pastworks" class="nav-link">專案資歷</a>
                         </li>
                         <li class="nav-item">
                             <a href="contact" class="nav-link">聯絡我們</a>
@@ -126,7 +126,7 @@
             <div class="col-12 text-center position-relative page-title-large"
                 data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 900, "easing": "easeOutCirc" }'>
                 <h1 class="alt-font d-inline-block fw-700 ls-minus-1px text-dark-gray mb-0">Contact us</h1>
-                <h2 class="mt-5px text-dark-gray mb-0"><span class="opacity-7">How we can help you?</span></h2>
+                <h2 class="mt-5px text-dark-gray mb-0"><span class="opacity-7">誠摯邀請您成為普洛加⺠的夥伴客⼾</span></h2>
             </div>
         </div>
     </div>
@@ -145,8 +145,10 @@
                         <i class="bi bi-geo-alt icon-large d-block text-dark-gray mb-25px"></i>
                     </div>
                     <div class="feature-box-content last-paragraph-no-margin">
-                        <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">Crafto office</span>
-                        <p>401 Broadway, 24th floor<br> New york, NY 10013</p>
+                        <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">Office</span>
+                        <p>台北市松⼭區
+                            <br>八德路3段218號7樓
+                        </p>
                     </div>
                 </div>
             </div>
@@ -159,11 +161,11 @@
                     </div>
                     <div class="feature-box-content last-paragraph-no-margin">
                         <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">Call us directly</span>
-                        <span class="d-block">Phone: <a href="tel:1800222000">1-800-222-000</a></span>
-                        <span class="d-block">Fax: 1-800-222-002</span>
+                        <span class="d-block"><a href="tel:0987350606">0987-350-606</a></span>
                     </div>
                 </div>
             </div>
+
             <!-- end features box item -->
             <!-- start features box item -->
             <div class="col icon-with-text-style-04 transition-inner-all">
@@ -173,8 +175,10 @@
                     </div>
                     <div class="feature-box-content last-paragraph-no-margin">
                         <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">Send a message</span>
-                        <a href="mailto:info@yourdomain.com" class="d-block">info@yourdomain.com</a>
-                        <a href="mailto:hr@yourdomain.com" class="d-block">hr@yourdomain.com</a>
+                        <a href="mailto:pm@programi.com.tw" class="d-block">pm@programi.com.tw</a>
+                        <a href="mailto:hr@yourdomain.com" class="d-block"></a>
+                        <a href="https://lin.ee/ZgHy83J" class="d-block">
+                            Line: @programi</a>
                     </div>
                 </div>
             </div>
@@ -195,9 +199,12 @@
                 <div id="" class="map h-100 md-h-600px sm-h-550px" style="background-color: #FFDA4C"></div>
             </div>
             <!-- end map -->
+
+
+
             <div class="col-lg-6 contact-form-style-03">
                 <div class="bg-dark-gray p-15 lg-p-10 h-100 overflow-hidden position-relative">
-                    <h1 class="fw-600 alt-font text-white fancy-text-style-4 ls-minus-1px">Say
+                    <h1 class="fw-600 alt-font text-white fancy-text-style-4 ls-minus-1px">立即聯繫！
                         <span data-fancy-text='{ "effect": "rotate", "string": ["hello!", "hallå!", "salve!"] }'></span>
                     </h1>
                     <!-- start contact form -->
@@ -206,18 +213,18 @@
                             <span class="form-icon"><i class="bi bi-person icon-extra-medium"></i></span>
                             <input
                                 class="ps-0 border-radius-0px fs-17 bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control required"
-                                type="text" name="name" placeholder="Enter your name*">
+                                type="text" name="name" placeholder="請輸入您的⼤名">
                         </div>
                         <div class="position-relative form-group mb-20px">
                             <span class="form-icon"><i class="bi bi-envelope icon-extra-medium"></i></span>
                             <input
                                 class="ps-0 border-radius-0px fs-17 bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control required"
-                                type="email" name="email" placeholder="Enter your email address*">
+                                type="email" name="email" placeholder="請輸入您的E-mail">
                         </div>
                         <div class="position-relative form-group form-textarea mt-15px mb-25px">
                             <textarea
                                 class="ps-0 border-radius-0px fs-17 bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control"
-                                name="comment" placeholder="Enter your message" rows="4"></textarea>
+                                name="comment" placeholder="請輸入您想要諮詢的項⽬或問題" rows="4"></textarea>
                             <span class="form-icon"><i class="bi bi-chat-square-dots icon-extra-medium"></i></span>
                             <input type="hidden" name="redirect" value="">
                             <button class="btn btn-small btn-y-t-y ls-1px mt-30px submit w-100 btn-round-edge-small"

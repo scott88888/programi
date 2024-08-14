@@ -11,7 +11,7 @@ class ShareMenuItems
     public function handle(Request $request, Closure $next)
     {
         $menuItems = [
-            ['link' => 'shop', 'text' => 'Shop.com夥伴商店串接'],
+            ['link' => 'shop', 'text' => 'SHOP·COM夥伴商店串接'],
             ['link' => 'ecommerce', 'text' => '線上購物平台'],
             ['link' => 'hr', 'text' => '人事差勤管理系統'],
             ['link' => 'finance', 'text' => '財務報銷系統'],

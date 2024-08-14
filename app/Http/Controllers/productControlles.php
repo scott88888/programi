@@ -8,7 +8,7 @@ class productControlles extends Controller
 {
     public function shop()
     {
-        $title1 = '美安系統串接';
+        $title1 = '美安夥伴商店串接';
         $title2 = '增加其銷售渠道的廣度和多元化';
         $firstword = '台';
         $conect1 = '灣美安夥伴商店計畫是由美安公司（Market America）推動的⼀項計畫，旨在透過提供⼀個網絡平台，使消費者能在多樣化的商店和品牌中購物，同時賺取獎勵和折扣。';
@@ -44,7 +44,7 @@ class productControlles extends Controller
             ]
         ];
         $footer = '歡迎與我們聯繫，我們的客戶專員可以針對製作您的書商平台，並與美安串接移轉商店，給予更多專業指導及建議';
-        $img = asset('images/product/shopcom/shop_com_shop.jpg');
+        $img = asset('images/product/shopcom/shop_com_shop.jpeg');
         $imgRound = asset('images/product/shopcom/ibv.jpg');
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }

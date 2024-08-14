@@ -56,6 +56,32 @@
         background-color: #ffa500;
         margin: 10px auto;
     }
+
+    .text-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .intro-text {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .fancy-text {
+        width: 100%;
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: -1px;
+    }
+
+    @media (max-width: 768px) {
+        .fancy-text {
+            font-size: 40px;
+        }
+    }
 </style>
 @endsection
 
@@ -106,7 +132,7 @@
                             <img style="max-height: 43px;padding: 0 20px;margin: 0px 15px;" src="images/onlylogo.png" data-at2x="images/onlylogo.png" alt="" class="">
                         </a>
                         <li class="nav-item ">
-                            <a href="pastworks" class="nav-link">過往作品</a>
+                            <a href="pastworks" class="nav-link">專案資歷</a>
                         </li>
                         <li class="nav-item">
                             <a href="contact" class="nav-link">聯絡我們</a>
@@ -131,6 +157,12 @@
         </div>
     </nav>
     <!-- end navigation -->
+
+
+
+
+
+
 </header>
 <!-- end header -->
 <!-- start banner slider -->
@@ -143,8 +175,8 @@
         <div class="row align-items-center text-center text-md-start justify-content-sm-center">
             <div class="col-md-6 col-sm-9 position-relative z-index-1 text-dark-gray md-mb-35px">
                 <div class="alt-font fs-50 md-fs-40 fw-300 lh-85 ls-minus-2px mb-15px fancy-text-style-4" data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 900, "easing": "easeOutCirc" }'>
-                    <span class="d-inline-block">為客戶提供</span>
-                    <span class="fw-700 fs-50 md-fs-40 ls-minus-1px d-inline-block" data-fancy-text='{ "effect": "rubber-band", "string": ["創新 Innovative", "全面 Comprehensive", "優質 Quality ","安全 Secure ","獨特 Unique "] }'></span>
+                    <span class="d-inline-block intro-text">為客戶提供</span>
+                    <span class="fw-700 fs-50 md-fs-40 ls-minus-1px d-inline-block fancy-text" data-fancy-text='{ "effect": "rubber-band", "string": ["優質 Outstanding","安全 Reliable","創新 Innovative","全⾯ Comprehensive","客製 Customized"] }'></span>
                 </div>
                 <div data-anime='{ "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "duration": 900, "delay": 500, "easing": "easeOutCirc" }'>
                     <span class="alt-font fs-20 fw-500 w-70 lg-w-85 sm-w-100 mb-40px md-mb-30px d-block opacity-7">的解決方案，無論是企業或是私人需求都可以量身訂製各類系統開發
@@ -182,7 +214,7 @@
             <div class="col icon-with-text-style-03 lg-mb-50px xs-mb-40px">
                 <div class="feature-box ps-7 pe-7 sm-ps-4 sm-pe-4">
                     <div class="feature-box-icon mb-30px sm-mb-20px">
-                            <img src="images/dialogue.png" style="width: 80px;height: 80px;" alt="">                    
+                        <img src="images/dialogue.png" style="width: 80px;height: 80px;" alt="">
                     </div>
                     <div class="feature-box-content last-paragraph-no-margin">
                         <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">諮詢與規劃</span>
@@ -195,11 +227,11 @@
             <div class="col icon-with-text-style-03 lg-mb-50px xs-mb-40px">
                 <div class="feature-box ps-7 pe-7 sm-ps-4 sm-pe-4">
                     <div class="feature-box-icon mb-30px sm-mb-20px">
-                    <img src="images/experience.png" style="width: 80px;height: 80px;" alt="">     
+                        <img src="images/experience.png" style="width: 80px;height: 80px;" alt="">
                     </div>
                     <div class="feature-box-content last-paragraph-no-margin">
                         <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">經驗的累積</span>
-                        <p>15年以上經驗將不可能化為可能</p>
+                        <p>15年經驗，將不可能化為可能</p>
                     </div>
                 </div>
             </div>
@@ -208,7 +240,7 @@
             <div class="col icon-with-text-style-03 xs-mb-40px">
                 <div class="feature-box ps-7 pe-7 sm-ps-4 sm-pe-4">
                     <div class="feature-box-icon mb-30px sm-mb-20px">
-                    <img src="images/machine-learning.png" style="width: 80px;height: 80px;" alt="">     
+                        <img src="images/machine-learning.png" style="width: 80px;height: 80px;" alt="">
                     </div>
                     <div class="feature-box-content last-paragraph-no-margin">
                         <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">構建與交付</span>
@@ -221,7 +253,7 @@
             <div class="col icon-with-text-style-03">
                 <div class="feature-box ps-7 pe-7 sm-ps-4 sm-pe-4">
                     <div class="feature-box-icon mb-30px sm-mb-20px">
-                    <img src="images/webbuilding.png" style="width: 80px;height: 80px;" alt="">     
+                        <img src="images/webbuilding.png" style="width: 80px;height: 80px;" alt="">
                     </div>
                     <div class="feature-box-content last-paragraph-no-margin">
                         <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">培訓與進修</span>
@@ -244,7 +276,7 @@
             <div class="col md-mb-40px alt-font text-dark-gray fw-600">
                 <div class="d-flex flex-column flex-md-row justify-content-center align-items-center g-0 text-center text-md-start">
                     <div class="flex-shrink-0 me-15px sm-me-0">
-                        <h2 class="mb-0">95<sup class="fs-30">%</sup></h2>
+                        <h2 class="mb-0">99<sup class="fs-30">%</sup></h2>
                     </div>
                     <div>
                         <span class="fs-18 lh-26 d-block">顧客需求達成率<br /></span>
@@ -304,7 +336,7 @@
                         <div class="rotate-content-front z-index-2 p-30px">
                             <img class="mb-25px h-70px" src="images/code.png" alt="">
                             <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">系統開發</div>
-                            <span>APP，WEB系統軟體開發</span>
+                            <span>App及網⾴應⽤程式開發</span>
 
 
                         </div>
@@ -316,8 +348,8 @@
                         <div class="opacity-light bg-charcoal-blue"></div>
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
                             <span class="text-white alt-font fw-500 fs-19 mb-5px">系統開發</span>
-                            <p>為各大企業定制應用程式，以用家友善的原則使使用者更能容易掌握上手</p>
-                            <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
+                            <p>為各⼤企業訂製應⽤程式，以使⽤者友善的原則，讓⽤⼾更容易掌握上⼿</p>
+                            <a href="{{asset('/contact')}}" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
                     </div>
@@ -331,9 +363,10 @@
                     <div class="w-100 h-100 overflow-hidden z-index-1 front-side bg-white border-radius-6px box-shadow-quadruple-large">
                         <div class="rotate-content-front z-index-2 p-30px">
                             <img class="mb-25px h-70px" src="images/shopcom.png" alt="">
-                            <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">shop.com夥伴商店串接</div>
-                            <span>為商城網站串接美安系統</span>
+                            <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">SHOP・COM 夥伴商店</div>
+                            <span>為網路商店串接美安系統</span>
                         </div>
+                        
 
 
                     </div>
@@ -342,8 +375,8 @@
                     <div class="w-100 h-100 overflow-hidden back-side cover-background border-radius-6px box-shadow-quadruple-large">
                         <div class="opacity-light bg-charcoal-blue"></div>
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
-                            <span class="text-white alt-font fw-500 fs-19 mb-5px">shop.com夥伴商店串接</span>
-                            <p>協助商城增加一個穩定強大的客源</p>
+                            <span class="text-white alt-font fw-500 fs-19 mb-5px">SHOP・COM 夥伴商店</span>
+                            <p>協助增加⼀個穩定強⼤的客⼾來源</p>
                             <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
@@ -393,7 +426,7 @@
                         <div class="opacity-light bg-charcoal-blue"></div>
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
                             <span class="text-white alt-font fw-500 fs-19 mb-5px">財務報銷系統</span>
-                            <p>專業的知識更能注入應用程式使企業減少成本增加利潤</p>
+                            <p>與會計稅務記帳所合作，打造智慧AI財務報銷系統</p>
                             <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
@@ -408,8 +441,8 @@
                     <div class="w-100 h-100 overflow-hidden z-index-1 front-side bg-white border-radius-6px box-shadow-quadruple-large">
                         <div class="rotate-content-front z-index-2 p-30px">
                             <img class="mb-25px h-70px" src="images/ux-design.png" alt="">
-                            <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">數位化體驗</div>
-                            <span>與我們專業的 UX/UI 和開發團隊建構數位化產品體驗</span>
+                            <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">⼈性化設計</div>
+                            <span>與我們專業UX/UI，和產品經理、開發團隊，設計流暢的系統使⽤流程</span>
                         </div>
                     </div>
                     <!-- end front side -->
@@ -417,8 +450,8 @@
                     <div class="w-100 h-100 overflow-hidden back-side cover-background border-radius-6px box-shadow-quadruple-large">
                         <div class="opacity-light bg-charcoal-blue"></div>
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
-                            <span class="text-white alt-font fw-500 fs-19 mb-5px">數位化體驗</span>
-                            <p>用高性能的網站和應用程式參與用戶旅程每一步</p>
+                            <span class="text-white alt-font fw-500 fs-19 mb-5px">⼈性化設計</span>
+                            <p>提供使⽤者在使⽤系統上，有別以往的友善體驗</p>
                             <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
@@ -434,7 +467,7 @@
                         <div class="rotate-content-front z-index-2 p-30px">
                             <img class="mb-25px h-70px" src="images/booking-waiting.png" alt="">
                             <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">訂位 / 候位系統</div>
-                            <span>為餐廳業者打造客人的訂位候位系統</span>
+                            <span>提升服務效率和顧客滿意度</span>
                         </div>
                     </div>
                     <!-- end front side -->
@@ -443,7 +476,7 @@
                         <div class="opacity-light bg-charcoal-blue"></div>
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
                             <span class="text-white alt-font fw-500 fs-19 mb-5px">訂位 / 候位系統</span>
-                            <p>為等候用餐者從一開始擁有更良好的</p>
+                            <p>提供您的顧客⼀個更舒適便利的消費體驗</p>
                             <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
@@ -458,8 +491,8 @@
                     <div class="w-100 h-100 overflow-hidden z-index-1 front-side bg-white border-radius-6px box-shadow-quadruple-large">
                         <div class="rotate-content-front z-index-2 p-30px">
                             <img class="mb-25px h-70px" src="images/customer-service.png" alt="">
-                            <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">客服系統</div>
-                            <span>為高用戶需求的客服特別訂製的客服系統</span>
+                            <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">客服管理系統</div>
+                            <span>龐⼤客⼾群的企業，系統性有效管理客服⼈員，提升客⼾滿意度</span>
                         </div>
                     </div>
                     <!-- end front side -->
@@ -467,8 +500,8 @@
                     <div class="w-100 h-100 overflow-hidden back-side cover-background border-radius-6px box-shadow-quadruple-large">
                         <div class="opacity-light bg-charcoal-blue"></div>
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
-                            <span class="text-white alt-font fw-500 fs-19 mb-5px">客服系統</span>
-                            <p>為應付高並發的客服需求量身打造，不遺漏每一位來訪的客人</p>
+                            <span class="text-white alt-font fw-500 fs-19 mb-5px">客服管理系統</span>
+                            <p>為應付⾼併發的客服需求量，量⾝打造，不讓您遺漏每⼀位潛在客⼾</p>
                             <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
@@ -484,7 +517,7 @@
                         <div class="rotate-content-front z-index-2 p-30px">
                             <img class="mb-25px h-70px" src="images/demo-lawyer-practice-areas-icon-08black.svg" alt="">
                             <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">文件管理系統</div>
-                            <span>為遠端或跨地區工作者設立的文件管理方式</span>
+                            <span>為遠端或跨地區⼯作者，提供⼀個⽂件共享的解決及管理⽅式</span>
                         </div>
                     </div>
                     <!-- end front side -->
@@ -520,13 +553,13 @@
                     <!-- start slider item -->
                     <div class="swiper-slide">
                         <div class="fs-250 lg-fs-200 md-fs-150 ls-minus-8px md-ls-minus-4px text-light-blue alt-font fw-700">
-                        / Quality / Secure / Unique / Innovative / Comprehensive</div>
+                            / Quality / Secure / Unique / Innovative / Comprehensive</div>
                     </div>
                     <!-- end slider item -->
                     <!-- start slider item -->
                     <div class="swiper-slide">
                         <div class="fs-250 lg-fs-200 md-fs-150 ls-minus-8px md-ls-minus-4px text-light-blue alt-font fw-700">
-                        / Quality / Secure / Unique / Innovative / Comprehensive</div>
+                            / Quality / Secure / Unique / Innovative / Comprehensive</div>
                     </div>
                     <!-- end slider item -->
                 </div>
@@ -565,8 +598,8 @@
                                 <span class="ps-20px pe-20px mb-30px md-mb-20px text-uppercase text-dark-gray fs-20 lh-40 md-lh-50 ls-1px alt-font fw-700 border-radius-4px bg-y-w-y d-inline-block">用心傾聽</span>
                                 <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">仔細了解您的需求
                                 </h2>
-                                <p class="w-80 xl-w-90 md-w-100">確保我們理解一致，最終產品合乎您的需求，免除後期改動影響客戶時程，務求使顧客滿意與我們的合作體驗</p>
-                                <a href="about"  class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
+                                <p class="w-80 xl-w-90 md-w-100">確保我們理解⼀致，最終產品精確合乎您的需求，減少後期調整⽽影響了您的⼯作安排，務求您滿意與我們的合作體驗</p>
+                                <a href="about" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
                                     <span>
                                         <span class="btn-text">了解更多</span>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -586,8 +619,8 @@
                             <div class="col-lg-5 col-md-6 ps-8 lg-ps-3 sm-ps-15px text-center text-md-start">
                                 <span class="ps-20px pe-20px mb-30px md-mb-20px text-uppercase text-dark-gray fs-20 lh-40 md-lh-50 ls-1px alt-font fw-700 border-radius-4px bg-y-w-y d-inline-block">全面計劃</span>
                                 <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">部署周全的時間表</h2>
-                                <p class="w-80 xl-w-90 md-w-100">我們的高級工程師安排時程，務求在制定的時間完成產品，並保留時間予客人測試</p>
-                                <a href="about"  class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
+                                <p class="w-80 xl-w-90 md-w-100">由我們的專案經理團隊安排開發時程，在制定的時間內完成，保留充⾜的時間給予產品測試，並培訓顧客使⽤</p>
+                                <a href="about" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
                                     <span>
                                         <span class="btn-text">了解更多</span>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -602,14 +635,14 @@
                     <div class="tab-pane fade in" id="tab_five3">
                         <div class="row align-items-center justify-content-center">
                             <div class="col-lg-7 col-md-6 sm-mb-30px">
-                            <img src="images/programming.jpg" alt="" />
+                                <img src="images/programming.jpg" alt="" />
                             </div>
                             <div class="col-lg-5 col-md-6 ps-8 lg-ps-3 sm-ps-15px text-center text-md-start">
                                 <span class="ps-20px pe-20px mb-30px md-mb-20px text-uppercase text-dark-gray fs-20 lh-40 md-lh-50 ls-1px alt-font fw-700 border-radius-4px bg-y-w-y d-inline-block">盡心打造</span>
                                 <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">15年經驗全數付出
                                 </h2>
                                 <p class="w-80 xl-w-90 md-w-100">以最有效的方式，與我們的設計團隊一同架構製作，以專業的態度使產品以最完美的方式展現</p>
-                                <a href="about"  class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
+                                <a href="about" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
                                     <span>
                                         <span class="btn-text">了解更多</span>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -624,14 +657,14 @@
                     <div class="tab-pane fade in" id="tab_five4">
                         <div class="row align-items-center justify-content-center">
                             <div class="col-lg-7 col-md-6 sm-mb-30px">
-                            <img src="images/listening.jpg" alt="" />
+                                <img src="images/listening.jpg" alt="" />
                             </div>
                             <div class="col-lg-5 col-md-6 ps-8 lg-ps-3 sm-ps-15px text-center text-md-start">
                                 <span class="ps-20px pe-20px mb-30px md-mb-20px text-uppercase text-dark-gray fs-20 lh-40 md-lh-50 ls-1px alt-font fw-700 border-radius-4px bg-y-w-y d-inline-block">產品交付</span>
                                 <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">與您一同分享喜悅
                                 </h2>
-                                <p class="w-80 xl-w-90 md-w-100">無論是使用家節省了時間，還是增加了您的利潤，我們深信製作的產品都會使工作變得更順利，由心感恩我們參與了其中</p>
-                                <a href="about"  class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
+                                <p class="w-80 xl-w-90 md-w-100">無論是使⽤者節省了時間，抑或是增加您的獲利，我們深信普洛加⺠都能幫助您的⼯作變得更加順利，感恩您讓我們參與其中</p>
+                                <a href="about" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-700">
                                     <span>
                                         <span class="btn-text">了解更多</span>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -673,9 +706,9 @@
                     <div class="col-sm-6 last-paragraph-no-margin counter-style-04 md-mb-35px">
                         <h2 class="vertical-counter d-inline-flex fw-700 ls-minus-2px mb-10px" style="color:#ffffff" data-text="%" data-to="90"><sup class="top-minus-5px" style="color: #FFDA4C;"><i class="bi bi-arrow-up icon-medium"></i></sup></h2>
                         <span class="fs-19 fw-600 ls-minus-05px d-block" style="color:#ffffff" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "delay": 0, "staggervalue": 250, "easing": "easeOutQuad" }'>
-                        顧客進階需求持續配合</span>
+                            顧客進階需求持續配合</span>
                         <p class="w-85 sm-w-100 md-mx-auto" style="color:#ffffff" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "delay": 0, "staggervalue": 250, "easing": "easeOutQuad" }'>
-                        在後續的公司轉型或是系統重整持續跟我們配合</p>
+                            在後續的公司轉型或是系統重整持續跟我們配合</p>
                     </div>
                     <!-- end counter item -->
                 </div>
@@ -708,7 +741,7 @@
                         <div class="swiper-slide">
                             <div class="row align-items-center pt-25px pb-25px">
                                 <div class="col-lg-8 d-lg-flex align-items-center text-center text-lg-start">
-                                <img src="images/vivian.jpg" class="rounded-circle w-100px h-100px md-mb-35px" alt="">
+                                    <img src="images/vivian.jpg" class="rounded-circle w-100px h-100px md-mb-35px" alt="">
                                     <span class="d-block ps-40px md-ps-0 md-mx-auto position-relative" style="color: #ffffff;"><img src="images/demo-accounting-home-quote-img.png" class="position-absolute left-minus-25px top-minus-15px lg-top-minus-5px md-top-minus-50px w-40px md-left-0px md-right-0px md-mx-auto" alt="">自從普洛加民把所有部門系統統一為一個ERM系統後，部門間配合變得更協調</span>
                                 </div>
                                 <div class="col-lg-1 d-none d-lg-inline-block">
@@ -726,7 +759,7 @@
                         <div class="swiper-slide">
                             <div class="row align-items-center pt-25px pb-25px">
                                 <div class="col-lg-8 d-lg-flex align-items-center text-center text-lg-start">
-                                <img src="images/bill.jpg" class="rounded-circle w-100px h-100px md-mb-35px" alt="">
+                                    <img src="images/bill.jpg" class="rounded-circle w-100px h-100px md-mb-35px" alt="">
                                     <span class="d-block ps-40px md-ps-0 md-mx-auto position-relative" style="color: #ffffff;"><img src="images/demo-accounting-home-quote-img.png" class="position-absolute left-minus-25px top-minus-15px lg-top-minus-5px md-top-minus-50px w-40px md-left-0px md-right-0px md-mx-auto" alt="">普洛加民提供的服務諮詢，可以提供幾乎所有的技術支持，總的來說，一次好的合作，包括服務的專業性與效率，處理時效上的跟進，普洛加民都是一個不錯的選擇</span>
                                 </div>
                                 <div class="col-lg-1 d-none d-lg-inline-block">
@@ -822,8 +855,8 @@
         <div class="row justify-content-center mt-7 mb-9 sm-mt-40px sm-mb-0">
             <div class="col-12 d-block d-sm-flex align-items-center text-center text-sm-start justify-content-center fs-22 alt-font" style="margin-block-end: inherit;">
                 <div class="me-5px xs-ms-10px d-inline-block align-middle"><i class="fa-regular fa-heart text-red"></i></div>
-                <div class="d-inline-block align-middle">誠邀您的加入成為我們<span class="fw-800 text-dark-gray text-decoration-line-bottom-medium">100+</span> 
-                家合作伙伴之一</div>
+                <div class="d-inline-block align-middle">誠邀您的加入成為我們<span class="fw-800 text-dark-gray text-decoration-line-bottom-medium">100+</span>
+                    家合作伙伴之一</div>
 
             </div>
         </div>
@@ -837,9 +870,9 @@
         <div class="row align-items-center justify-content-center h-100">
             <div class="col-xxl-8 col-lg-10 mb-9 md-mb-15 sm-mb-0 position-relative z-index-1 text-center d-flex flex-wrap align-items-center justify-content-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <span class="ps-25px pe-25px pt-5px pb-5px mb-25px text-uppercase  fs-20 ls-1px fw-600 border-radius-100px d-flex align-items-center text-start sm-lh-20" style="background-color:#FFDA4C;color:#000000"><i class="bi bi-megaphone  d-inline-block align-middle icon-small me-10px"></i>
-                歡迎和我們一同構思如何使您的工作更順利</span>
-                <h1 class="text-white fw-600 ls-minus-2px mb-45px">讓我們一同創造更美好的
-                    <span class="fw-600" data-fancy-text='{ "effect": "rotate", "string": ["產品!", "程式!", "軟體!", "培訓!", "轉型!"] }'></span>
+                    歡迎和我們一同構思如何使您的工作更順利</span>
+                <h1 class="text-white fw-600 ls-minus-2px mb-45px">讓我們一同創造更有效的
+                    <span class="fw-600" data-fancy-text='{ "effect": "rotate", "string": ["系統!", "應⽤程式!", "品牌網站!", "專案開發!"] }'></span>
                 </h1>
                 <a href="#" class="btn btn-extra-large btn-switch-text btn-y-t-y btn-rounded">
                     <span>
