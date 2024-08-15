@@ -143,21 +143,22 @@
             <div class="col-lg-9 dropcap-style-01" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                 <p><span class="alt-font first-letter text-dark-gray">{{ $firstword }}</span>
                 <div>
-                    {{ $conect1 }}
+                {!! $conect1 !!}
                 </div>
                 <div>
                     <p>{{ $conect2 }}</p>
                 </div>
+
                 @foreach($steps as $step)
                 <div class="step">
                     <div style="font-weight:bold;">{!! $step['title'] !!}</div>
-                    <!-- <div>{!! e($step['content']) !!}</div> -->
-                    <div>{!! nl2br(e($step['content'])) !!}</div>
-
+                    <div>{!! $step['content'] !!}</div>
                 </div>
                 @endforeach
+
+                
                 <div class="centered-red-text" style="margin-top: 30px;">
-                  {{ $footer }}
+                {!! $footer !!}
                 </div>
                 </p>
             </div>
