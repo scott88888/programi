@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown simple-dropdown">
-                            <a href="index" class="nav-link" style="color: black;">首頁</a>
+                            <a href="index" class="nav-link">首頁</a>
                         </li>
 
                         <li class="nav-item dropdown submenu">
