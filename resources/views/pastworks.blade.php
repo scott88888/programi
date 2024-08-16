@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown simple-dropdown">
-                            <a href="index" class="nav-link">首頁</a>
+                            <a href="index" class="nav-link" style="color: black;">首頁</a>
                         </li>
 
                         <li class="nav-item dropdown submenu">
@@ -115,10 +115,10 @@
                     <li class="grid-item selected web transition-inner-all">
                         <div class="portfolio-box border-radius-4px">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{asset('images/passwork/bookingsystem.jpg')}}" alt="" />
+                                <img src="{{asset('images/hrhr.png')}}" alt="" />
                                 <div class="portfolio-hover d-flex justify-content-center flex-column">
                                     <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
-                                        <a href="{{asset('/waitforegg')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                        <a href="{{asset('/hr')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
                                             <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -127,8 +127,30 @@
                                 </div>
                             </div>
                             <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">各類線上預約需求</div>
-                                <a href="{{asset('/waitforegg')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">網上預約系統</a>
+                                <div class="fs-14 lh-20 text-uppercase">掌握⼈⼒分配，精準計算⼈事費⽤</div>                                
+                                <a href="{{asset('/hr')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">⼈資管理系統</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- end portfolio item -->
+                         <!-- start portfolio item -->
+                    <li class="grid-item selected web transition-inner-all">
+                        <div class="portfolio-box border-radius-4px">
+                            <div class="portfolio-image border-radius-4px">
+                                <img src="{{asset('images/webpass.png')}}" alt="" />
+                                <div class="portfolio-hover d-flex justify-content-center flex-column">
+                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                        <a href="{{asset('/')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
+                                </div>
+                            </div>
+                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
+                                <div class="fs-14 lh-20 text-uppercase">結合SEO 廣告投放，開發潛在客⼾</div>
+                                <a href="{{asset('/')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">專案網站開發</a>
                             </div>
                         </div>
                     </li>
@@ -137,7 +159,7 @@
                     <li class="grid-item branding web transition-inner-all">
                         <div class="portfolio-box border-radius-4px">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{asset('images/passwork/chatbot.jpg')}}" alt="" />
+                                <img src="{{asset('images/chatbot.png')}}" alt="" />
                                 <div class="portfolio-hover d-flex justify-content-center flex-column">
                                     <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
                                         <a href="{{asset('/chatbot')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
@@ -159,7 +181,7 @@
                     <li class="grid-item branding transition-inner-all">
                         <div class="portfolio-box border-radius-4px">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{asset('images/passwork/ecommerce.jpg')}}" alt="" />
+                                <img src="{{asset('images/ecommercepass.png')}}" alt="" />
                                 <div class="portfolio-hover d-flex justify-content-center flex-column">
                                     <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
                                         <a href="{{asset('/ecommerce')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
@@ -181,7 +203,7 @@
                     <li class="grid-item web transition-inner-all">
                         <div class="portfolio-box border-radius-4px">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{asset('images/passwork/education_system.jpg')}}" alt="" />
+                                <img src="{{asset('images/education_system.png')}}" alt="" />
                                 <div class="portfolio-hover d-flex justify-content-center flex-column">
                                     <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
                                         <a href="{{asset('/education')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
@@ -203,7 +225,7 @@
                     <li class="grid-item digital transition-inner-all">
                         <div class="portfolio-box border-radius-4px">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{asset('images/passwork/finance.jpg')}}" alt="" />
+                                <img src="{{asset('images/financepass.png')}}" alt="" />
                                 <div class="portfolio-hover d-flex justify-content-center flex-column">
                                     <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
                                         <a href="{{asset('/finance')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
@@ -222,55 +244,10 @@
                     </li>
                     <!-- end portfolio item -->
                     <!-- start portfolio item -->
-                    <li class="grid-item digital transition-inner-all">
-                        <div class="portfolio-box border-radius-4px">
-                            <div class="portfolio-image border-radius-4px">
-                                <img src="{{asset('images/passwork/FormSystem.jpg')}}" alt="" />
-                                <div class="portfolio-hover d-flex justify-content-center flex-column">
-                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
-                                        <a href="{{asset('/form')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
-                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
-                                </div>
-                            </div>
-                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">減少⼈為遺失、有效跟進⼯作、進⾏多部⾨整</div>
-                                <a href="{{asset('/form')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">文件管理系統</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- end portfolio item -->
-                    <!-- start portfolio item -->
-                    <li class="grid-item branding web transition-inner-all">
-                        <div class="portfolio-box border-radius-4px">
-                            <div class="portfolio-image border-radius-4px">
-                                <img src="{{asset('images/passwork/mini_games.jpg')}}" alt="" />
-                                <div class="portfolio-hover d-flex justify-content-center flex-column">
-                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
-                                        <a href="{{asset('/minigame')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
-                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
-                                </div>
-                            </div>
-                            
-                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">增加⽤⼾黏著度</div>
-                                <a href="{{asset('/minigame')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">網頁小遊戲製作</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- end portfolio item -->
-                    <!-- start portfolio item -->
                     <li class="grid-item branding transition-inner-all">
                         <div class="portfolio-box border-radius-4px">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{asset('images/passwork/shopcom.jpg')}}" alt="" />
+                                <img src="{{asset('images/shopcompass.png')}}" alt="" />
                                 <div class="portfolio-hover d-flex justify-content-center flex-column">
                                     <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
                                         <a href="{{asset('/shop')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
@@ -314,7 +291,7 @@
                     <li class="grid-item selected transition-inner-all">
                         <div class="portfolio-box border-radius-4px">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{asset('images/passwork/waitplusegg.jpg')}}" alt="" />
+                                <img src="{{asset('images/waitpluseggpass.png')}}" alt="" />
                                 <div class="portfolio-hover d-flex justify-content-center flex-column">
                                     <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
                                         <a href="{{asset('/waitforegg')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">

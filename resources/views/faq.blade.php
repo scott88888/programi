@@ -136,7 +136,7 @@
             <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
                 <i class="line-icon-Idea-5 icon-extra-large mb-25px text-white"></i>
                 <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">需求分析與規劃</span>
-                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">與您深入了解業務需求、⽤⼾需求及功能要求</p>
+                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">與您深入了解業務需求、使⽤者功能要求，並著⼿進⾏規劃</p>
                 <div class="process-step-icon-box position-relative mt-40px md-mt-30px">
                     <span class="progress-step-separator bg-white opacity-2 w-55 separator-line-1px"></span>
                     <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-black-transparent-light h-70px w-70px fs-18 rounded-circle text-white fw-500 alt-font">
@@ -150,7 +150,7 @@
             <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
                 <i class="line-icon-Approved-Window icon-extra-large mb-25px text-white"></i>
                 <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">專案計劃與設計</span>
-                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">制定詳細的專案計劃，包括⼯作時程規劃及報價</p>
+                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">制定詳細的專案計劃，包括⼯作時程規劃，並提供報價協調</p>
                 <div class="process-step-icon-box position-relative mt-40px md-mt-30px">
                     <span class="progress-step-separator bg-white opacity-2 w-55 separator-line-1px"></span>
                     <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-black-transparent-light h-70px w-70px fs-18 rounded-circle text-white fw-500 alt-font">
@@ -178,7 +178,7 @@
             <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin">
                 <i class="line-icon-Archery-2 icon-extra-large mb-25px text-white"></i>
                 <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">完成交付、持續維護</span>
-                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">交付系統⽂檔、使⽤培訓，並持續提供技術⽀持</p>
+                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">交付系統⽂檔、使⽤培訓，並持續提供技術⽀持與維護</p>
                 <div class="process-step-icon-box position-relative mt-40px md-mt-30px">
                     <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-black-transparent-light h-70px w-70px fs-18 rounded-circle text-white fw-500 alt-font">
                         <span class="number position-relative z-index-1">04</span>
@@ -216,7 +216,7 @@
                         </div>
                         <div id="accordion-style-04-02" class="accordion-collapse collapse show" data-bs-parent="#accordion-style-04">
                             <div class="accordion-body bg-white last-paragraph-no-margin">
-                                <p>• A: 我們的收費基於項⽬的規模和複雜度。⼀般來說，我們會在免費的初次諮詢後，根據您的具體需求提供⼀份詳細的報價。我們也可以提供靈活的計費⽅式，包括固定費⽤、按時計費或成果導向的費⽤結構。</p>
+                                <p>• A: 我們的收費基於項⽬的規模和複雜度。⼀般來說，我們會在免費的初次諮詢後，根據您的具體需求提供⼀份詳細的報價。<br>我們也可以提供靈活的計費⽅式，包括固定費⽤、按時計費或成果導向的費⽤結構。</p>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                         </div>
                         <div id="accordion-style-04-03" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
                             <div class="accordion-body bg-white last-paragraph-no-margin">
-                                <p>• A: 我們採⽤先進的項⽬管理⽅法和⼯具，每個專案都會指派⼀名專⾨的項⽬經理，負責監控進度並確保所有階段按計劃執⾏。客⼾將定期接收進度報告，並參與週期性的評估會議。</p>
+                                <p>• A: 我們採⽤先進的項⽬管理⽅法和⼯具，每個專案都會指派⼀名專⾨的項⽬經理，負責監控進度並確保所有階段按計劃執⾏。<br>客⼾將定期接收進度報告，並參與週期性的評估會議。</p>
                             </div>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
                         </div>
                         <div id="accordion-style-04-04" class="accordion-collapse collapse show" data-bs-parent="#accordion-style-05">
                             <div class="accordion-body bg-white last-paragraph-no-margin">
-                                <p>• A: 專案交付完成後，我們提供從維護到升級的全範圍技術⽀持服務。這包括故障排除、系統更新，以及與時俱進的系統功能增強計畫。我們提供多種⽀持，從基本的技術客服⽀援，到24/7全天候的緊急服務。</p>
+                                <p>• A: 專案交付完成後，我們提供從維護到升級的全範圍技術⽀持服務。<br>這包括故障排除、系統更新，以及與時俱進的系統功能增強計畫。<br>我們提供多種⽀持，從基本的技術客服⽀援，到24/7全天候的緊急服務。</p>
                             </div>
                         </div>
                     </div>
@@ -274,7 +274,7 @@
                         </div>
                         <div id="accordion-style-04-05" class="accordion-collapse collapse" data-bs-parent="#accordion-style-05">
                             <div class="accordion-body bg-white last-paragraph-no-margin">
-                                <p>• A: ⾸先，請通過我們的網站提交您的需求，或直接聯絡我們的客⼾服務部⾨。我們將安排⼀次免費諮詢，詳細了解您的需求和預期⽬標。之後，我們會提供⼀份項⽬提案和報價。⼀旦確認合作，我們將進入正式的項⽬規劃和實施階段 </p>
+                                <p>• A: ⾸先，請通過我們的網站提交您的需求，或直接聯絡我們的客⼾服務部⾨。<br>我們將安排⼀次免費諮詢，詳細了解您的需求和預期⽬標。之後，我們會提供⼀份項⽬提案和報價。⼀旦確認合作，我們將進入正式的項⽬規劃和實施階段 </p>
                             </div>
                         </div>
                     </div>

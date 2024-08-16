@@ -33,8 +33,6 @@
     .bg-y-w-y {
         background-image: linear-gradient(to right, #A88006, #FFE87F, #A88006);
     }
-
-
 </style>
 @endsection
 
@@ -66,14 +64,27 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown simple-dropdown">
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            <a href="index" class="nav-link" style="color: #000000;">首頁</a>
+                            @else
                             <a href="index" class="nav-link">首頁</a>
+                            @endif
                         </li>
 
                         <li class="nav-item dropdown submenu">
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            <a href="about" class="nav-link" style="color: #000000;">關於我們</a>
+                            @else
                             <a href="about" class="nav-link">關於我們</a>
+                            @endif
+
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            <a href="#" class="nav-link" style="color: #000000;">產品/服務</a>
+                            @else
                             <a href="#" class="nav-link">產品/服務</a>
+                            @endif
                             <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
                                 @foreach($menuItems as $item)
@@ -85,13 +96,25 @@
                             <img style="max-height: 43px;padding: 0 20px;margin: 0px 15px;" src="images/onlylogo.png" data-at2x="images/onlylogo.png" alt="" class="">
                         </a>
                         <li class="nav-item dropdown submenu">
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            <a href="pastworks" class="nav-link" style="color: #000000;">專案資歷</a>
+                            @else
                             <a href="pastworks" class="nav-link">專案資歷</a>
+                            @endif
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            <a href="contact" class="nav-link" style="color: #000000;">聯絡我們</a>
+                            @else
                             <a href="contact" class="nav-link">聯絡我們</a>
+                            @endif
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            <a href="faq" class="nav-link" style="color: #000000;">常見問題</a>
+                            @else
                             <a href="faq" class="nav-link">常見問題</a>
+                            @endif
                         </li>
                     </ul>
                 </div>
@@ -143,7 +166,7 @@
             <div class="col-lg-9 dropcap-style-01" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                 <p><span class="alt-font first-letter text-dark-gray">{{ $firstword }}</span>
                 <div>
-                {!! $conect1 !!}
+                    {!! $conect1 !!}
                 </div>
                 <div>
                     <p>{{ $conect2 }}</p>
@@ -156,9 +179,9 @@
                 </div>
                 @endforeach
 
-                
+
                 <div class="centered-red-text" style="margin-top: 30px;">
-                {!! $footer !!}
+                    {!! $footer !!}
                 </div>
                 </p>
             </div>

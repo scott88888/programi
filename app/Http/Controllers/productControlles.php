@@ -44,15 +44,15 @@ class productControlles extends Controller
             ]
         ];
         $footer = '歡迎與我們聯繫！我們的客⼾專員可以針對製作您的電商平台，並與美安串接夥伴商店，給予更多專業指導及建議';
-        $img = asset('images/product/shopcom/shop_com_shop.jpeg');
+        $img = asset('images/product/shopcom/shop_com_shop.jpg');
         $imgRound = asset('images/product/shopcom/ibv.jpg');
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
     public function ecommerce()
     {
-        $title1 = '線上購物平台';
-        $title2 = '打開通往全台灣甚至全世界的大門';
+        $title1 = '線上電商平台';
+        $title2 = '打開通往全台灣，甚⾄全世界的⼤⾨';
         $firstword = '架';
         $conect1 = '設⼀個線上購物網站涉及多個技術層⾯和服務，從前端設計到後端系統的實現，以及保護⽤⼾安全和數據的安全性。<br><br>';
         $conect2 = '下⾯列出了普洛加⺠提供的關鍵技術服務：';
@@ -98,7 +98,7 @@ class productControlles extends Controller
         ];
         $footer = '歡迎與我們聯繫！我們的客⼾專員可以提供給您，更多關於架設⼀個極具吸引⼒的購物網站專業規劃';
         $img = asset('images/product/ecommerce/E-Commerce.jpeg');
-        $imgRound = asset('images/product/ecommerce/ecommerce_sq.png');
+        $imgRound = asset('images/product/ecommerce/ecommerce_sq2.png');
 
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
@@ -106,7 +106,7 @@ class productControlles extends Controller
     public function hr()
     {
         $title1 = '⼈資管理系統';
-        $title2 = '管理員⼯出勤，薪資計算';
+        $title2 = '管理員⼯資料、出缺勤及薪資計算';
         $firstword = '專';
         $conect1 = '⾨⽤來管理員⼯出勤狀況、排班和⼯資計算的系統，包含以下幾個關鍵功能：<br><br>';
         $conect2 = '下⾯列出了普洛加⺠提供的關鍵技術服務：';
@@ -143,7 +143,7 @@ class productControlles extends Controller
         ];
         $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。<br>我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
         $img = asset('images/product/hr/hr_large.jpg');
-        $imgRound = asset('images/product/hr/hr_circle.jpg');
+        $imgRound = asset('images/product/hr/hr_circle2.jpg');
 
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
@@ -192,7 +192,7 @@ class productControlles extends Controller
         
         $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。<br>我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
         $img = asset('images/product/finance/finance-1.jpg');
-        $imgRound = asset('images/product/finance/finance_sq.png');
+        $imgRound = asset('images/product/finance/finance_sq2.png');
 
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
@@ -276,7 +276,7 @@ class productControlles extends Controller
         $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。<br>我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
 
         $img = asset('images/product/education/educational_system2.jpg');
-        $imgRound = asset('images/product/education/educational_system_sq.png');
+        $imgRound = asset('images/product/education/educational_system_sq2.png');
 
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
@@ -361,7 +361,7 @@ class productControlles extends Controller
 
         $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。<br>我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調';
         $img = asset('images/product/chatbot/chatbot.jpg');
-        $imgRound = asset('images/product/chatbot/chat-bot.png');
+        $imgRound = asset('images/product/chatbot/chat-bot2.png');
 
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
@@ -404,7 +404,7 @@ class productControlles extends Controller
         整。';
 
         $img = asset('images/product/form/Form_system.jpg');
-        $imgRound = asset('images/product/form/form_logo.png');
+        $imgRound = asset('images/product/form/form_logo2.png');
 
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
@@ -412,7 +412,7 @@ class productControlles extends Controller
     public function minigame()
     {
         $title1 = '網⾴⼩遊戲訂製';
-        $title2 = '增加用家體驗樂趣';
+        $title2 = '增加⽤⼾黏著度，提升回頭率與忠誠度';
         $firstword = '訂';
         $conect1 = '製網⾴⼩遊戲是⼀個非常有趣且具有挑戰性的項⽬，適合企業、教育機構或個⼈希望透過遊戲來吸引觀眾、教育⽤⼾或提⾼品牌知名度。<br><br>';
         $conect2 = '  以下是訂製網⾴⼩遊戲的介紹和步驟：';
@@ -436,12 +436,12 @@ class productControlles extends Controller
         $footer = '歡迎與我們聯繫，我們的客⼾專員可以針對您的想法，設計客制您的網⾴⼩遊戲，給予更多專業規劃及建議';
 
         $img = asset('images/product/minigame/mini_games1.jpg');
-        $imgRound = asset('images/product/minigame/mini_game_logo.png');
+        $imgRound = asset('images/product/minigame/mini_game_logo2.png');
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
     public function customer()
     {
-        $title1 = '會員註冊及積分統計系統';
+        $title1 = '會員註冊及積分系統';
         $title2 = '提⾼會員管理服務，有效進⾏⾏銷';
         $firstword = '會';
         $conect1 = '員註冊及積分系統是⼀個⽤於管理會員信息和積分的系統，主要功能包括會員註冊、會員資
@@ -477,7 +477,7 @@ class productControlles extends Controller
         $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。<br>我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
 
         $img = asset('images/product/customer_reg/customer_registration1.jpg');
-        $imgRound = asset('images/product/customer_reg/customer_registration_logo.png');
+        $imgRound = asset('images/product/customer_reg/customer_registration_logo2.png');
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
@@ -533,7 +533,7 @@ class productControlles extends Controller
         ];
         $footer = '歡迎與我們聯繫，您將可以索取到7天試⽤版。<br>我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
         $img = asset('images/product/survey/survey_system1.jpg');
-        $imgRound = asset('images/product/survey/survery_logo.png');
+        $imgRound = asset('images/product/survey/survery_logo2.png');
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 }

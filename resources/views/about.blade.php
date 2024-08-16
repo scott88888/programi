@@ -132,7 +132,7 @@
             <div class="col-xl-5 offset-xl-1 col-lg-6 text-center text-lg-start" data-anime='{ "el": "childs", "willchange": "transform", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 600, "delay": 100, "easing": "easeOutCirc" }'>
                 <span class="ps-20px pe-20px mb-30px md-mb-20px text-uppercase text-dark-gray fs-20 lh-40 md-lh-50 ls-1px alt-font fw-700 border-radius-4px bg-y-w-y d-inline-block">公司成立</span>
                 <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">全面配合 將心比心</h2>
-                <p class="w-85 lg-w-95 sm-w-100 mb-40px sm-mb-20px">普洛加⺠數位科技有限公司成立於2024年，由兩位已累積超過15年業界資歷的夥伴共同創立，專注於提供創新的技術，充滿活⼒和熱情。技術團隊由技能精湛的專業⼈員組成，致⼒於為客⼾提供⾼品質、量⾝定制的技術解決⽅案。</p>
+                <p class="w-85 lg-w-95 sm-w-100 mb-40px sm-mb-20px">普洛加⺠數位科技有限公司成立於2024年，由兩位已累積超過15年業界資歷的夥伴共同創立，專注於提供創新的技術，充滿活⼒和熱情。<br>技術團隊由技能精湛的專業⼈員組成，致⼒於為客⼾提供⾼品質、量⾝定制的技術解決⽅案。</p>
                 <img src="images/about-usmin1.png" alt="" class="me-25px xs-m-10px">
                 <img src="images/about-usmin2.png" alt="" class="xs-m-10px">
             </div>
@@ -184,7 +184,7 @@
             <div class="col-lg-5 offset-lg-1 text-center text-lg-start" data-anime='{ "el": "childs", "willchange": "transform", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 600, "delay": 100, "easing": "easeOutCirc" }'>
                 <span class="ps-20px pe-20px mb-30px md-mb-20px text-uppercase text-dark-gray fs-20 lh-40 md-lh-50 ls-1px alt-font fw-700 border-radius-4px bg-y-w-y d-inline-block">
                     核⼼優勢</span>
-                <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px w-90 lg-w-100">成為普洛加⺠的客⼾，您將擁有</h2>
+                <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px w-90 lg-w-100">與我們合作<br>您將擁有</h2>
                 <p class="mb-20px w-80 lg-w-100">• 顯著提升的⼯作效率：企業系統的客制開發，最佳化您的使⽤體驗，縮短⼯作時間，提升⼯作效率。</p>
                 <p class="mb-20px w-80 lg-w-100">• 流暢的⼈性化設計：介⾯簡潔友好，易於操作，減少使⽤者學習成本，減少時間成本。</p>
                 <p class="mb-20px w-80 lg-w-100">• 專業技術⽀持：普洛加⺠的技術團隊長期與香港知名⼤型企業及政府單位合作，擁有豐富的系統開發經驗與專業能⼒，能有效給予您最快的解決⽅案。</p>
@@ -209,11 +209,11 @@
                 <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">沒有做不到的任務</h2>
                 <p class="w-85 lg-w-95 sm-w-100 mb-40px sm-mb-20px">
                     普洛加⺠的技術長來⾃香港，擁有豐富的⼤型企業合作經
-                    驗，與香港知名公司和政府單位合作超過15年。技術長和
-                    團隊通過與這些知名企業和政府單位的合作，累積了豐富
+                    驗，與香港知名公司和政府單位合作超過15年。<br><br>
+                    技術長和團隊通過與這些知名企業和政府單位的合作，累積了豐富
                     的實戰經驗，也在不間斷的內部培訓與外部進修中獲得與
                     時俱進的技術能⼒，這將有助於我們為客⼾提供更優質、
-                    更符合實際需求的解決⽅案。</br>
+                    更符合實際需求的解決⽅案。<br><br>
                     我們期待著透過這些寶貴經驗，與您攜⼿合作，共同推動
                     技術和服務的卓越發展。
                 </p>
@@ -236,10 +236,10 @@
                 <p class="w-85 lg-w-95 sm-w-100 mb-40px sm-mb-20px">
                     我們堅信，創新是推動科技進步的關鍵，因此，我們⿎勵
                     團隊成員提出新想法、嘗試新技術，並通過合作共享知
-                    識，實現共同成長。</br>
+                    識，實現共同成長。</br><br>
                     我們擁有豐富的經驗和強⼤的熱情，願意為客⼾提供最好
                     的解決⽅案。我們期待與您攜⼿合作，共同塑造⼀個更具
-                    創新性和可持續發展的未來。</br>
+                    創新性和可持續發展的未來。</br><br>
                     無論是程式設計、網⾴架設、還是企業系統客製服務，普
                     洛加⺠數位科技都將以最優質的服務和專業的技術為客⼾
                     提供最佳解決⽅案，助您在競爭激烈的市場中脫穎⽽出。

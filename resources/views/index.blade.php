@@ -257,7 +257,33 @@
                     </div>
                     <div class="feature-box-content last-paragraph-no-margin">
                         <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">培訓與進修</span>
-                        <p>保持跟市場的資訊同步</p>
+                        <p>積極探索新知，保持最具競爭⼒</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end features box item -->
+                  <!-- start features box item -->
+            <div class="col icon-with-text-style-03">
+                <div class="feature-box ps-7 pe-7 sm-ps-4 sm-pe-4">
+                    <div class="feature-box-icon mb-30px sm-mb-20px">
+                        <img src="images/rating.png" style="width: 80px;height: 80px;" alt="">
+                    </div>
+                    <div class="feature-box-content last-paragraph-no-margin">
+                        <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">客⼾⾄上</span>
+                        <p>以客⼾需求為本，提供持續⽀持</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end features box item -->
+                  <!-- start features box item -->
+            <div class="col icon-with-text-style-03">
+                <div class="feature-box ps-7 pe-7 sm-ps-4 sm-pe-4">
+                    <div class="feature-box-icon mb-30px sm-mb-20px">
+                        <img src="images/project-management.png" style="width: 80px;height: 80px;" alt="">
+                    </div>
+                    <div class="feature-box-content last-paragraph-no-margin">
+                        <span class="d-inline-block alt-font fw-700 text-dark-gray mb-5px fs-20">卓越的專案管理</span>
+                        <p>堅守時間與風險控管，⾼品質標準</p>
                     </div>
                 </div>
             </div>
@@ -417,7 +443,7 @@
                         <div class="rotate-content-front z-index-2 p-30px">
                             <img class="mb-25px h-70px" src="images/finance.png" alt="">
                             <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">財務報銷系統</div>
-                            <span>與會計師合作打造財務報銷系統</span>
+                            <span>與會計稅務記帳所合作，打造智慧AI財務報銷系統</span>
                         </div>
                     </div>
                     <!-- end front side -->
@@ -742,7 +768,8 @@
                             <div class="row align-items-center pt-25px pb-25px">
                                 <div class="col-lg-8 d-lg-flex align-items-center text-center text-lg-start">
                                     <img src="images/vivian.jpg" class="rounded-circle w-100px h-100px md-mb-35px" alt="">
-                                    <span class="d-block ps-40px md-ps-0 md-mx-auto position-relative" style="color: #ffffff;"><img src="images/demo-accounting-home-quote-img.png" class="position-absolute left-minus-25px top-minus-15px lg-top-minus-5px md-top-minus-50px w-40px md-left-0px md-right-0px md-mx-auto" alt="">自從普洛加民把所有部門系統統一為一個ERM系統後，部門間配合變得更協調</span>
+                                    <span class="d-block ps-40px md-ps-0 md-mx-auto position-relative" style="color: #ffffff;"><img src="images/demo-accounting-home-quote-img.png" class="position-absolute left-minus-25px top-minus-15px lg-top-minus-5px md-top-minus-50px w-40px md-left-0px md-right-0px md-mx-auto" alt="">⾃從普洛加⺠把所有部⾨系統，整合為⼀個ERP系統後，
+                                    部⾨間配合得更有效率</span>
                                 </div>
                                 <div class="col-lg-1 d-none d-lg-inline-block">
                                     <div class="separator-line w-1px md-w-100 h-60px md-h-1px bg-extra-medium-gray mx-auto">
