@@ -281,7 +281,7 @@ class productControlles extends Controller
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
 
-    public function waitforegg()
+    public function waitplusegg()
     {
         $title1 = '定位／候位系統';
         $title2 = '強化品牌形象、降低運營成本';
@@ -322,8 +322,8 @@ class productControlles extends Controller
         ];
         $footer = '歡迎與我們聯繫，您將可以索取到30天試⽤版。<br>我們將會有產品專員與您接洽，提供您更多使⽤⽅針，並能針對您的需求進⾏客製化調整。';
 
-        $img = asset('images/product/qwait/waitforegg_1.jpeg');
-        $imgRound = asset('images/product/qwait/waitforegg_logo.png');
+        $img = asset('images/product/qwait/waitplusegg_1.jpeg');
+        $imgRound = asset('images/product/qwait/waitplusegg_logo.png');
 
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
@@ -486,7 +486,7 @@ class productControlles extends Controller
         $title1 = '問卷調查及數據統計系統';
         $title2 = '掌握⼤數據，未來⼤獲利';
         $firstword = '問';
-        $conect1 = '卷調查及數據統計系統是⼀套⽤於設計、分發問卷並分析和報告調查數據的⼯具。這些系統在學術研究、商業市場調查、社會科學研究和客⼾反饋收集中廣泛應⽤。';
+        $conect1 = '卷調查及數據統計系統是⼀套⽤於設計、分發問卷並分析和報告調查數據的⼯具。這套系統在學術研究、商業市場調查、社會科學研究和客⼾反饋收集中廣泛應⽤。';
         $conect2 = '以下是這套系統的主要功能及其相關介紹：';
         $steps = [
             [

@@ -16,7 +16,7 @@ class ShareMenuItems
             ['link' => 'hr', 'text' => '⼈資管理系統'],
             ['link' => 'finance', 'text' => '財務報銷系統'],
             ['link' => 'education', 'text' => '教育業管理系統'],
-            ['link' => 'waitforegg', 'text' => '訂位／候位系統'],
+            ['link' => 'waitplusegg', 'text' => '訂位／候位系統'],
             ['link' => 'chatbot', 'text' => '客服系統'],
             ['link' => 'form', 'text' => '文件管理系統'],
             ['link' => 'minigame', 'text' => '網頁小遊戲訂製'],

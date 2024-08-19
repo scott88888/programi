@@ -64,7 +64,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown simple-dropdown">
-                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitplusegg', 'form'))
                             <a href="index" class="nav-link" style="color: #000000;">首頁</a>
                             @else
                             <a href="index" class="nav-link">首頁</a>
@@ -72,7 +72,7 @@
                         </li>
 
                         <li class="nav-item dropdown submenu">
-                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitplusegg', 'form'))
                             <a href="about" class="nav-link" style="color: #000000;">關於我們</a>
                             @else
                             <a href="about" class="nav-link">關於我們</a>
@@ -80,7 +80,7 @@
 
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
-                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitplusegg', 'form'))
                             <a href="#" class="nav-link" style="color: #000000;">產品/服務</a>
                             @else
                             <a href="#" class="nav-link">產品/服務</a>
@@ -96,21 +96,21 @@
                             <img style="max-height: 43px;padding: 0 20px;margin: 0px 15px;" src="images/onlylogo.png" data-at2x="images/onlylogo.png" alt="" class="">
                         </a>
                         <li class="nav-item dropdown submenu">
-                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitplusegg', 'form'))
                             <a href="pastworks" class="nav-link" style="color: #000000;">專案資歷</a>
                             @else
                             <a href="pastworks" class="nav-link">專案資歷</a>
                             @endif
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
-                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitplusegg', 'form'))
                             <a href="contact" class="nav-link" style="color: #000000;">聯絡我們</a>
                             @else
                             <a href="contact" class="nav-link">聯絡我們</a>
                             @endif
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
-                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitforegg', 'form'))
+                            @if(Request::is('shop', 'hr', 'finance', 'education', 'waitplusegg', 'form'))
                             <a href="faq" class="nav-link" style="color: #000000;">常見問題</a>
                             @else
                             <a href="faq" class="nav-link">常見問題</a>

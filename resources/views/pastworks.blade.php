@@ -273,7 +273,7 @@
                                 <img src="{{asset('images/waitpluseggpass.png')}}" alt="" />
                                 <div class="portfolio-hover d-flex justify-content-center flex-column">
                                     <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
-                                        <a href="{{asset('/waitforegg')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
+                                        <a href="{{asset('/waitplusegg')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
                                             <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -283,7 +283,7 @@
                             </div>
                             <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
                                 <div class="fs-14 lh-20 text-uppercase">提升服務效率，增加營業額與利潤</div>
-                                <a href="{{asset('/waitforegg')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">候位排隊系統</a>
+                                <a href="{{asset('/waitplusegg')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">候位排隊系統</a>
                             </div>
                         </div>
                     </li>

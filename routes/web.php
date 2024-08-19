@@ -40,7 +40,7 @@ Route::controller(productControlles::class)->group(function () {
     Route::match(['get', 'post'], 'hr', 'hr');
     Route::match(['get', 'post'], 'finance', 'finance');
     Route::match(['get', 'post'], 'education', 'education');
-    Route::match(['get', 'post'], 'waitforegg', 'waitforegg');
+    Route::match(['get', 'post'], 'waitplusegg', 'waitplusegg');
     Route::match(['get', 'post'], 'chatbot', 'chatbot');
     Route::match(['get', 'post'], 'form', 'form');
     Route::match(['get', 'post'], 'minigame', 'minigame');

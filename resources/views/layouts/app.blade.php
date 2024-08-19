@@ -75,7 +75,7 @@
                     <ul>
                         <li><a href="index">首頁</a></li>
                         <li><a href="about">關於我們</a></li>
-                        <li><a href="productservice">專案資歷</a></li>
+                        <li><a href="pastworks">專案資歷</a></li>
                         <li><a href="contact">聯絡我們</a></li>
                         <li><a href="faq">常見問題（FAQ）</a></li>
                     </ul>
