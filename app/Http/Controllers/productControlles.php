@@ -284,7 +284,7 @@ class productControlles extends Controller
     public function waitforegg()
     {
         $title1 = '定位／候位系統';
-        $title2 = '提升客人光顧體驗';
+        $title2 = '強化品牌形象、降低運營成本';
         $firstword = '這';
         $conect1 = '系統在各⾏各業中非常重要，特別是在餐飲、醫療和服務業。能夠幫助企業有效管理客⼾流、預約和等待時間，提升客⼾滿意度和操作效率。<br><br>';
         $conect2 = '以下分別介紹這三種系統的基本功能和應⽤：';
@@ -312,11 +312,11 @@ class productControlles extends Controller
                 &nbsp;&nbsp;&nbsp;&nbsp;• 實時候位跟踪：讓客⼾知道他們在隊列中的位置以及估計的等待時間。<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;• 虛擬排隊：客⼾可以透過⼿機加入虛擬排隊，不必實體站在隊伍中。<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;• 通知系統：當接近客⼾的輪候時，系統會通過短信或應⽤推送通知客⼾。<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;• 數據分析：收集等候時間和客⼾流量數據，幫助管理層優化流程和服務。<br>'
+                &nbsp;&nbsp;&nbsp;&nbsp;• 數據分析：收集等候時間和客⼾流量數據，幫助管理層優化流程和服務。<br><br>'
             ],
             [
                 'title' => '',
-                'content' => '這些系統可以⼤⼤提升服務質量，降低運營成本，並增強顧客滿意度。'
+                'content' => '這些套統可以⼤⼤提升服務質量，降低運營成本，並增強顧客滿意度。'
             ],
 
         ];
@@ -354,7 +354,7 @@ class productControlles extends Controller
             [
                 'title' => '4. 同步客戶資料管理：',
                 'content' => '&nbsp;&nbsp;&nbsp;&nbsp;• 功能：集成的客戶資料管理系統，能夠同步並更新客戶的個人資料、購買歷史和互動記錄。<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;• 優勢：使客服⼈員能夠獲得客⼾的全⾯資訊，提供更個性化和⾼效的服務，並建立更深層的客⼾關係。<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;• 優勢：使客服⼈員能夠獲得客⼾的全⾯資訊，提供更個性化和⾼效的服務，並建立更深層的客⼾關係。<br><br>
                 這些功能結合使⽤時，不僅提升了客服部⾨的運作效率，還能顯著提⾼客⼾滿意度和忠誠度。通過技術⾃動化和數據驅動的決策，企業能夠更好地應對客⼾需求，並在競爭激烈的市場中保持領先。<br>'
             ],
         ];

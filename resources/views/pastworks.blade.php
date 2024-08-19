@@ -265,28 +265,7 @@
                         </div>
                     </li>
                     <!-- end portfolio item -->
-                    <!-- start portfolio item -->
-                    <li class="grid-item digital web transition-inner-all">
-                        <div class="portfolio-box border-radius-4px">
-                            <div class="portfolio-image border-radius-4px">
-                                <img src="{{asset('images/passwork/survey_system.jpg')}}" alt="" />
-                                <div class="portfolio-hover d-flex justify-content-center flex-column">
-                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
-                                        <a href="{{asset('/survery')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
-                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
-                                </div>
-                            </div>
-                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">掌握大數據</div>
-                                <a href="{{asset('/survery')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">問卷/統計系統</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- end portfolio item -->
+
                     <!-- start portfolio item -->
                     <li class="grid-item selected transition-inner-all">
                         <div class="portfolio-box border-radius-4px">
@@ -309,28 +288,7 @@
                         </div>
                     </li>
                     <!-- end portfolio item -->
-                    <!-- start portfolio item -->
-                    <li class="grid-item branding web transition-inner-all">
-                        <div class="portfolio-box border-radius-4px">
-                            <div class="portfolio-image border-radius-4px">
-                                <img src="{{asset('images/passwork/customer_registration.jpg')}}" alt="" />
-                                <div class="portfolio-hover d-flex justify-content-center flex-column">
-                                    <div class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
-                                        <a href="{{asset('/customer')}}" class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-60px h-60px move-bottom-top">
-                                            <i class="fa-solid fa-plus icon-small" aria-hidden="true"></i>
-                                        </a>
-                                    </div>                                    
-                                </div>
-                                <div class="portfolio-overlay bg-dark-gray" style="background-color: #637c8e;">
-                                </div>
-                            </div>
-                            <div class="portfolio-caption pt-30px pb-30px lg-pt-20px lg-pb-20px">
-                                <div class="fs-14 lh-20 text-uppercase">管理會員訊息</div>
-                                <a href="{{asset('/customer')}}" class="fs-17 fw-600 text-dark-gray text-dark-gray-hover">會員註冊積分管理系統</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- end portfolio item -->
+
                 </ul>
             </div>
         </div>
