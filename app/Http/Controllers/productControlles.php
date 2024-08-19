@@ -286,7 +286,7 @@ class productControlles extends Controller
         $title1 = '定位／候位系統';
         $title2 = '強化品牌形象、降低運營成本';
         $firstword = '這';
-        $conect1 = '系統在各⾏各業中非常重要，特別是在餐飲、醫療和服務業。能夠幫助企業有效管理客⼾流、預約和等待時間，提升客⼾滿意度和操作效率。<br><br>';
+        $conect1 = '套系統在各⾏各業中非常重要，特別是在餐飲、醫療和服務業。能夠幫助企業有效管理客⼾流、預約和等待時間，提升客⼾滿意度和操作效率。<br><br>';
         $conect2 = '以下分別介紹這三種系統的基本功能和應⽤：';
 
         $steps = [
@@ -316,7 +316,7 @@ class productControlles extends Controller
             ],
             [
                 'title' => '',
-                'content' => '這些套統可以⼤⼤提升服務質量，降低運營成本，並增強顧客滿意度。'
+                'content' => '這套系統可以⼤⼤提升服務質量，降低運營成本，並增強顧客滿意度。'
             ],
 
         ];
