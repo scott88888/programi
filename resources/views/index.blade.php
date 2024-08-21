@@ -146,9 +146,9 @@
             <div class="col-auto col-lg-2 text-end xs-pe-0">
                 <div class="header-icon">
                     <div class="header-button">
-                        <a href="https://themeforest.net/user/themezaa/portfolio" target="_blank" class="btn btn-dark-gray btn-small btn-switch-text btn-rounded text-transform-none btn-box-shadow purchase-envato">
+                        <a href="https://lin.ee/ZgHy83J" target="_blank" class="btn btn-dark-gray btn-small btn-switch-text btn-rounded text-transform-none btn-box-shadow purchase-envato">
                             <span>
-                                <span class="btn-double-text" data-text="Purchase Crafto">Purchase Crafto</span>
+                                <span class="btn-double-text" data-text="立即聯繫！">立即聯繫！</span>
                             </span>
                         </a>
                     </div>
@@ -182,7 +182,7 @@
                     <span class="alt-font fs-20 fw-500 w-70 lg-w-85 sm-w-100 mb-40px md-mb-30px d-block opacity-7">的解決方案，無論是企業或是私人需求都可以量身訂製各類系統開發
                     </span>
                 </div>
-                <a href="index" class="btn btn-extra-large btn-rounded with-rounded btn-gradient-new-color btn-box-shadow box-shadow-extra-large" data-anime='{ "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "duration": 900, "delay": 800, "easing": "easeOutCirc" }'>
+                <a href="contact" class="btn btn-extra-large btn-rounded with-rounded btn-gradient-new-color btn-box-shadow box-shadow-extra-large" data-anime='{ "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "duration": 900, "delay": 800, "easing": "easeOutCirc" }'>
                     聯&nbsp&nbsp繫&nbsp&nbsp我&nbsp&nbsp們
                     <span class="bg-white text-base-color"><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
@@ -375,7 +375,7 @@
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
                             <span class="text-white alt-font fw-500 fs-19 mb-5px">系統開發</span>
                             <p>為各⼤企業訂製應⽤程式，以使⽤者友善的原則，讓⽤⼾更容易掌握上⼿</p>
-                            <a href="{{asset('/contact')}}" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
+                            <a href="{{asset('/pastworks')}}" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
                     </div>
@@ -403,7 +403,7 @@
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
                             <span class="text-white alt-font fw-500 fs-19 mb-5px">SHOP・COM 夥伴商店</span>
                             <p>協助增加⼀個穩定強⼤的客⼾來源</p>
-                            <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
+                            <a href="{{asset('/shop')}}" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
                     </div>
@@ -428,7 +428,7 @@
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
                             <span class="text-white alt-font fw-500 fs-19 mb-5px">線上購物平台</span>
                             <p>把商品面向世界，接受來自不同地區的訂單需求</p>
-                            <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
+                            <a href="{{asset('/ecommerce')}}" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
                     </div>
@@ -453,7 +453,7 @@
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
                             <span class="text-white alt-font fw-500 fs-19 mb-5px">財務報銷系統</span>
                             <p>與會計稅務記帳所合作，打造智慧AI財務報銷系統</p>
-                            <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
+                            <a href="{{asset('/finance')}}" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
                     </div>
@@ -478,7 +478,7 @@
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
                             <span class="text-white alt-font fw-500 fs-19 mb-5px">⼈性化設計</span>
                             <p>提供使⽤者在使⽤系統上，有別以往的友善體驗</p>
-                            <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
+                            <a href="{{asset('/pastworks')}}" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
                     </div>
@@ -503,7 +503,7 @@
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
                             <span class="text-white alt-font fw-500 fs-19 mb-5px">訂位 / 候位系統</span>
                             <p>提供您的顧客⼀個更舒適便利的消費體驗</p>
-                            <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
+                            <a href="{{asset('/waitplusegg')}}" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
                     </div>
@@ -528,7 +528,7 @@
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
                             <span class="text-white alt-font fw-500 fs-19 mb-5px">客服管理系統</span>
                             <p>為應付⾼併發的客服需求量，量⾝打造，不讓您遺漏每⼀位潛在客⼾</p>
-                            <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
+                            <a href="{{asset('/chatbot')}}" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
                     </div>
@@ -553,7 +553,7 @@
                         <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px">
                             <span class="text-white alt-font fw-500 fs-19 mb-5px">文件管理系統</span>
                             <p>使企業員工更能有效管理關鍵文件，避免文件遺失</p>
-                            <a href="#" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
+                            <a href="{{asset('/form')}}" class="btn btn-small btn-rounded btn-white btn-box-shadow">了解更多</a>
                         </div>
                         <!-- end back side -->
                     </div>

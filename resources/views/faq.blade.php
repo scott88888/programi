@@ -71,9 +71,9 @@
             <div class="col-auto col-lg-2 text-end xs-pe-0">
                 <div class="header-icon">
                     <div class="header-button">
-                        <a href="https://themeforest.net/user/themezaa/portfolio" target="_blank" class="btn btn-dark-gray btn-small btn-switch-text btn-rounded text-transform-none btn-box-shadow purchase-envato">
+                        <a href="https://lin.ee/ZgHy83J" target="_blank" class="btn btn-dark-gray btn-small btn-switch-text btn-rounded text-transform-none btn-box-shadow purchase-envato">
                             <span>
-                                <span class="btn-double-text" data-text="Purchase Crafto">Purchase Crafto</span>
+                                <span class="btn-double-text" data-text="立即聯繫！">立即聯繫！</span>
                             </span>
                         </a>
                     </div>
@@ -110,7 +110,7 @@
                 <p class="w-80 md-w-100">普洛加⺠團隊擁有各種網路技術的專業知識，無論各項⼤⼩疑問，都可以⽤專業的回覆，讓您得到滿意的答案</p>
 
 
-                <a href="demo-seo-agency-what-we-do.html" class="btn btn-extra-large btn-rounded with-rounded btn-y-t-y btn-box-shadow box-shadow-extra-large mt-15px">聯繫我們<span class="bg-white text-base-color"><i class="fa-solid fa-arrow-right"></i></span></a>
+                <a href="contact" class="btn btn-extra-large btn-rounded with-rounded btn-y-t-y btn-box-shadow box-shadow-extra-large mt-15px">聯繫我們<span class="bg-white text-base-color"><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
             <div class="col-xl-6 offset-xl-1 col-lg-6 position-relative" data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                 <div class="outside-box-right-25 md-me-0">
@@ -128,7 +128,7 @@
     <div class="container">
         <div class="row justify-content-center mb-4 sm-mb-10" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
             <div class="col-12 text-center">
-                <h2 class="fw-600 alt-font text-white ls-minus-1px">每⼀次⾰新，都從溝通起步</h2>
+                <h2 class="fw-600 alt-font text-white ls-minus-1px">每一次⾰新，都從溝通起步</h2>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2" data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
@@ -164,7 +164,7 @@
             <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin xs-mb-50px">
                 <i class="line-icon-Gear-2 icon-extra-large mb-25px text-white"></i>
                 <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">啟動開發、測試並發布</span>
-                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">開發團隊啟動專案，落實需求並在時間內完成測試部署</p>
+                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5"><br>開發團隊啟動專案，落實需求並在時間內完成測試部署</p>
                 <div class="process-step-icon-box position-relative mt-40px md-mt-30px">
                     <span class="progress-step-separator bg-white opacity-2 w-55 separator-line-1px"></span>
                     <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-black-transparent-light h-70px w-70px fs-18 rounded-circle text-white fw-500 alt-font">
@@ -178,7 +178,7 @@
             <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin">
                 <i class="line-icon-Archery-2 icon-extra-large mb-25px text-white"></i>
                 <span class="d-block alt-font text-white fw-500 fs-20 mb-5px ls-05px">完成交付、持續維護</span>
-                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5">交付系統⽂檔、使⽤培訓，並持續提供技術⽀持與維護</p>
+                <p class="d-inline-block w-75 lg-w-85 text-white opacity-5"><br>交付系統⽂檔、使⽤培訓，並持續提供技術⽀持與維護</p>
                 <div class="process-step-icon-box position-relative mt-40px md-mt-30px">
                     <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-black-transparent-light h-70px w-70px fs-18 rounded-circle text-white fw-500 alt-font">
                         <span class="number position-relative z-index-1">04</span>
