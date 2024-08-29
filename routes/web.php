@@ -46,4 +46,7 @@ Route::controller(productControlles::class)->group(function () {
     Route::match(['get', 'post'], 'minigame', 'minigame');
     Route::match(['get', 'post'], 'customer', 'customer');
     Route::match(['get', 'post'], 'survery', 'survery');
+    Route::match(['get', 'post'], 'policy', 'policy');
+    Route::match(['get', 'post'], 'service', 'service');
+    
 });

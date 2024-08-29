@@ -97,7 +97,7 @@
             </div>
             <!-- start footer content -->
             <div class="border-top border-color-extra-medium-gray pt-35px pb-35px text-center">
-                <span class="fs-13 w-60 lg-w-70 md-w-90 sm-w-100 d-block mx-auto lh-22">© 2024 Programi Solutions Limited, All rights reserved.
+                <span class="fs-13 w-60 lg-w-70 md-w-90 sm-w-100 d-block mx-auto lh-22">© 2024 Programi Solutions Limited, All rights reserved. <a href="{{asset('/service')}}">服務條款  </a><a href="{{asset('/policy')}}">保密條款</a>
                 </span>
             </div>
             <!-- end footer content -->

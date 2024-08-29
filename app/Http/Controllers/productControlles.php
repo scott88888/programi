@@ -536,4 +536,17 @@ class productControlles extends Controller
         $imgRound = asset('images/product/survey/survery_logo2.png');
         return view('productservice', compact('title1', 'title2', 'firstword', 'conect1', 'conect2', 'steps', 'img', 'imgRound', 'footer'));
     }
+
+
+    public function policy()
+    {
+        
+        return view('policy');
+    }
+    
+    public function service()
+    {
+        
+        return view('service');
+    }
 }
